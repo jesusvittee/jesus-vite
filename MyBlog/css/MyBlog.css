@@ -1,0 +1,221 @@
+:root{
+    --primer-color:#16220C;
+    --segundo-color:#F39201;
+    --tercer-color:#FFA559;
+    --cuarto-color:white;
+}
+
+*{  font-family: 'Teko', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+    list-style: none;
+}
+body{
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows:auto 1fr auto; 
+}
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cinzel+Decorative:wght@700&family=Corben&display=swap');
+.header-conteiner{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:var(--primer-color);
+}
+.header-nav-left{
+    display: none;
+}
+.header-nav-medium{
+    width: 90%;
+    min-width: 100px;
+    height: 64px;
+    font-size: 1.5rem;
+    background-color: var(--primer-color);
+    display: flex;
+    align-items: center;
+    padding: .5rem;
+    border-radius: 3px;
+    border-bottom: .2px solid #D6D6D6;
+    
+}
+.header-nav-lista{
+    display: flex;
+    list-style: none;
+}
+.header-nav__item a {
+    color: var(--tercer-color);
+    padding:.5rem;
+    border-radius: .4rem;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+.header-nav__item a:hover{
+    color: gold;
+}
+.header-nav__itema:active{
+    color: white;
+}
+
+.header-nav-right {
+    display: none;
+}
+h1{
+    color: var(--segundo-color);
+    font-size: 4rem;
+    font-family: 'Teko', sans-serif;
+    max-width: 90%;
+    font-weight: 700;
+}
+h2{
+    color: var(--cuarto-color);
+    margin-top: 0.5rem;
+    font-size: 1.8rem;
+    font-family: 'Teko', sans-serif;
+    max-width: 90%;
+}
+.titulo{
+    width: 90%;
+    height: 200px;
+    min-width: 150px;
+    background-color: var(--primer-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.vacio::after{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 140px;
+    background-color: black;
+    margin: 0 auto;
+    position: absolute;
+}
+
+/* ---------------------------------------------------------- */
+.main-conteiner{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    min-height: 10px;
+}
+
+.main-section{
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 90%;
+    height: auto;  
+}
+.main-section__article{
+    display: flex;
+    width: 95%;
+    height: auto;
+    flex-direction: column;
+    margin: 1rem;
+    border-bottom: .2px solid var(--tercer-color);
+}
+.main-section__article a{
+    padding:.5rem;
+    border-radius: .4rem;
+    text-decoration: none;
+    height: auto;
+    margin-bottom: 1rem;
+}
+h3{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: var(--segundo-color);
+    font-size: 1.9rem;
+    margin-bottom: .7rem;
+}
+.contenido-resumen{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.Nunca-Rendirse{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    height: auto;
+    width: 100%;
+}
+.contenido-resumen p {
+    color: var(--primer-color);
+    font-size: 1.5rem;
+    height: auto;
+    font-family: 'Noto Sans Georgian', sans-serif;
+}
+
+/* -------------------------- */
+/* recomendable no mover */
+.tarjet{
+    width: 100%;
+    height: 31px;
+    display: grid;
+    display: flex;
+    flex-direction: row;
+}
+.tarjet > img{
+    width: 31px;
+    height:31px;
+    border-radius: 50%;
+}
+.tarjet > div{
+   margin-left: 1rem;
+}
+div > p {
+    margin: 0;
+    font-size: 1.2rem;
+    color: var(--primer-color);
+}
+/* hasta aca */
+/* ----------------- */
+
+/* -------------------------------------------- */
+.contenido-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 120px;
+    background-color:var(--primer-color);
+    list-style: none;
+    
+}
+.footer-class{
+    display: flex;
+    color: var(--cuarto-color);
+    font-size: 1.1rem;
+} 
+
+.footer{
+    display: flex;
+}
+.footer a{
+    margin-left: 2rem ;
+    margin-right: 2rem;
+    max-width: 40px;
+    text-decoration: none;
+    color: var(--cuarto-color) ;
+    font-size: 1.1rem;
+}
+.footer:hover{
+    color: gold;
+}
+.footer:active{
+    color: white;
+}
+

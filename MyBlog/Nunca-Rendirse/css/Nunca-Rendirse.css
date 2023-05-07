@@ -1,0 +1,144 @@
+:root{
+    --primer-color:#16220C;
+    --segundo-color:#F39201;
+    --tercer-color:#FFA559;
+    --cuarto-color:white;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Teko', sans-serif;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-width: 150px;
+    height: auto;
+    justify-content: center;
+}
+.header-conteiner-porcentaje{
+    display: grid;
+    flex-direction: column;
+    width: 90%;
+    display: flex;
+    flex-direction: center;
+    padding: 20px 0 35px;
+}
+/* .header-nav-left,.header-nav-right{
+    display:none;
+}
+.header-nav-medium{
+    display:flex;
+    justify-content:flex-end; 
+    width: 90%;
+    height: 6.4rem;
+}
+.header-nav-lista{
+    background-color: var(--primer-color);
+    border-radius: .3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100px;
+    font-size: 1.6rem;
+    height: 6rem;
+    border-radius: 0 0 15px 15px;
+}
+
+.header-nav__item{
+    list-style: none;
+}
+.header-nav__item > a {
+    color: var(--tercer-color);
+    text-decoration: none;
+    margin-right: 2rem;
+} */
+title{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: var(--segundo-color);
+    font-size: 5rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+.tarjet{
+    width: 100%;
+    height: 31px;
+    display: grid;
+    display: flex;
+    flex-direction: row;
+    margin: 35px 0 0;
+    padding-top: 15px;
+    border-top: 1px solid var(--tercer-color);
+}
+
+.tarjet > img{
+    width: 31px;
+    height:31px;
+    border-radius: 50%;
+}
+.tarjet > div{
+   margin-left: 1rem;
+}
+div > p {
+    margin: 0;
+    font-size: 1.6rem;
+    color: var(--primer-color);
+}
+
+.conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-width: 150px;
+    height: auto;
+    justify-content: center;
+    
+}
+.conteiner-bio{
+    justify-content: center;
+    width: 90%;
+    height: auto;
+    margin-bottom: 1.5rem;
+}
+
+h2{
+    margin-bottom:2rem;
+    font-size: 2.4rem;
+}
+.conteiner-bio p{
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    font-family: 'Noto Sans Georgian', sans-serif;
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 120px;
+    background-color:var(--primer-color);
+} 
+.footer-class{
+    color: var(--tercer-color);  
+    font-size: 1.4rem;
+} 
+.footer-class:hover{
+    color: gold;
+}
+.footer-class:active{
+    color: white;
+}
