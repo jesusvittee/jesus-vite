@@ -1,0 +1,52 @@
+    .header-nav-left{
+        display: none;
+    }
+    .header-nav-medium{
+        width: 30%;
+        min-width: 100px;
+        height: 64px;
+        order: 2;
+        padding:0px;
+    }
+    .vacio{
+        display: flex;
+        flex-wrap: wrap;
+        width: 35%;
+        height: 64px;
+        background-color: var(--primer-color);
+        order: 3;
+        border-bottom: .2px solid #D6D6D6;
+    }
+    .header-nav-right {
+        width: 25%;
+        /* padding-right: 1.0rem;
+        padding-left: 2.0rem; */
+        order: 4;
+        font-size: 1.5rem;
+    }
+    .titulo{
+        order: 5;
+    }
+    .main-conteiner{
+        background-image: url("/nav/portafolio/mobile/desktopp.png");
+    }
+    .main-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 90%;
+        height: auto;
+    }
+
+    .main-section__article{
+        display: flex;
+        width: 60%;
+        height: 400px;
+        flex-direction: column;
+        margin: 1rem;
+    }
+    .footer a{
+        display: none;
+    }
+    

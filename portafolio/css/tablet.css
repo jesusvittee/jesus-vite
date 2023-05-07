@@ -1,0 +1,64 @@
+
+    .header-nav__item{
+        margin: 5px;
+    }
+    .header-nav-medium{
+        width: 45%;
+        min-width: 100px;
+        height: 64px;
+    }
+ 
+    .header-nav-right {
+        display: flex;
+        width: 45%;
+        min-width: 40px;
+        font-size: 64px;
+        font-size: 1.5rem;
+        background-color: var(--primer-color);
+        display: flex;
+        align-items: center;
+        padding: .5rem;
+        border-radius: 3px;
+        border-bottom: .2px solid #D6D6D6;
+    }
+    h1{
+        font-size: 8rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
+    .vacio::after{
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        height: 110px;
+        background-color: azure;
+    }
+    .main-conteiner{
+        background-image: url("/nav/portafolio/mobile/tablet.png");
+    }
+    .main-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .main-section__article{
+        width: 80%;
+        height: 200px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        box-sizing: border-box;
+    }
+
+    p{
+        font-size: 1.6rem;
+    }
+.footer-class{
+    font-size: 2rem;  
+    
+} 
+
+.footer a{
+    display: none;
+}

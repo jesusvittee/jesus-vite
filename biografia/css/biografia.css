@@ -1,0 +1,110 @@
+:root{
+    --primer-color:#16220C;
+    --segundo-color:#F39201;
+    --tercer-color:#FFA559;
+    --cuarto-color:white;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Teko', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 6.4rem;
+}
+/* .header-nav-left,.header-nav-right{
+    display:none;
+}
+.header-nav-medium{
+    display:flex;
+    align-items: center;
+    justify-content:flex-end; 
+    width: 90%;
+    height: 6.4rem;
+}
+.header-nav-lista{
+    background-color: var(--primer-color);
+    border-radius: .3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100px;
+    font-size: 1.6rem;
+    height: 6rem;
+    border-radius: 0 0 15px 15px;
+}
+
+.header-nav__item{
+    list-style: none;
+}
+.header-nav__item > a {
+    color: var(--tercer-color);
+    text-decoration: none;
+    margin-right: 2rem;
+} */
+.conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-width: 150px;
+    height: auto;
+    justify-content: center;
+    
+}
+.conteiner-bio{
+    justify-content: center;
+    width: 90%;
+    height: auto;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--segundo-color);
+    font-size: 4.2rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+h2{
+    margin-bottom:2rem;
+    font-size: 2.4rem;
+}
+p{
+    font-size: 1.8rem;
+    margin-bottom: 1.8rem;
+    font-family: 'Noto Sans Georgian', sans-serif;
+}
+a {
+text-decoration: none;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 120px;
+    background-color:var(--primer-color);
+} 
+.footer-class{
+    display: flex;
+    color: var(--cuarto-color);
+    font-size: 1.4rem;
+} 
+.footer-class:hover{
+    color: gold;
+}
+.footer-class:active{
+    color: white;
+}
