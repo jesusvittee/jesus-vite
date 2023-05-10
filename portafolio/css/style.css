@@ -14,48 +14,120 @@ html{
     font-size: 62.5%;
     font-family: 'Teko', sans-serif;
 }
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cinzel+Decorative:wght@700&family=Corben&display=swap');
 .header-conteiner{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     background-color:var(--primer-color);
+    width: 100%;
+    height: 75.8rem;
 }
-.header-nav-left{
-    display: none;
-}
-.header-nav-medium{
-    width: 90%;
-    min-width: 100px;
-    height: 64px;
-    font-size: 1.5rem;
-    background-color: var(--primer-color);
-    display: flex;
+.presente{
+    display: grid;
+    justify-content: center;
     align-items: center;
-    padding: .5rem;
-    border-radius: 3px;
-    border-bottom: .2px solid #D6D6D6;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
-.header-nav-lista{
+.header-content{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    padding: 10rem 0;
+    height: 100%;
+}
+.header-content__all{
+    display: grid;
+    justify-content: center;
+    padding: 0 2rem;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+}
+.perfil{
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 0px rgba(200,95,66,.4) inset, 0px 0px 0px 16px rgba(255,255,255,.6) inset, 0px 1px 2px rgba(0,0,0,.1);
+    width: 26rem;
+    height: 26rem;
+    background-image:url("/portafolio/icon/foto-min.ico");
+}
+.header-content__all h1{
+    color: var(--cuarto-color);
+    font-size: 4rem;
+    margin: 2rem 0;
+}
+.header-content__all > p{
+    color: var(--cuarto-color);
+    font-size: 2rem;
+    margin-bottom:2rem;
+}
+img{
+    border-radius: 50%;
+}
+
+/* ---------------------------------------------------------- */
+body{
+    background-image: url("/portafolio/mobile/mobile.png");
+}
+
+.main-conteiner{
+    font-family: 'VT323', monospace;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+    color: var(--cuarto-color);
+    margin-top: .5rem;
+    font-size: 1.8rem;
+    max-width: 90%;
+}
+
+.main-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+.main-section__article{
+    display: flex;
+    width: 90%;
+    height: 200px;
+    flex-direction: column;
+    margin: 1rem;
+    background-color: var(--cuarto-color);
+    opacity: .2;
+    border-bottom: .2px solid var(--tercer-color);
+    border-radius: 1rem;
+
+}
+.main-section__article p{
+    width: 100%;
+    height: auto;
+}
+
+.main-article-lista{
     display: flex;
     list-style: none;
 }
-.header-nav__item a {
+.main-article__item a {
     color: var(--tercer-color);
     padding:.5rem;
     border-radius: .4rem;
     text-decoration: none;
-    font-size: 1.6rem;
+    font-size: 2rem;
 }
 a:hover{
     color: gold;
 }
 a:active{
     color: white;
-}
-
-.header-nav-right {
-    display: none;
 }
 
 .titulo{
@@ -71,63 +143,6 @@ a:active{
     box-sizing: border-box;
 }
 
-.vacio::after{
-    display: flex;
-    flex-wrap: wrap;
-    width: 90%;
-    height: 140px;
-    background-color: black;
-    margin: 0 auto;
-    position: absolute;
-}
-
-/* ---------------------------------------------------------- */
-.main-conteiner{
-    font-family: 'VT323', monospace;
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-    height: auto;
-    min-height: 10px;
-    background-image: url("/nav/portafolio/mobile/mobile.png");
-}
-h1{
-    color: var(--segundo-color);
-    font-size: 4rem;
-    max-width: 90%;
-}
-h2 {
-    color: var(--cuarto-color);
-    margin-top: .5rem;
-    font-size: 1.8rem;
-    max-width: 90%;
-}
-
-.main-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 90%;
-    height: auto;
-}
-.main-section__article{
-    display: flex;
-    width: 70%;
-    height: 200px;
-    flex-direction: column;
-    margin: 1rem;
-    background-color: var(--segundo-color);
-    opacity: .1;
-    border-bottom: .2px solid var(--tercer-color);
-
-}
-.main-section__article p{
-    width: 100%;
-    height: auto;
-}
 /* -------------------------------------------- */
 footer{
     display: flex;
