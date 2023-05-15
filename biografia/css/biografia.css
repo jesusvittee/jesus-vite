@@ -1,9 +1,11 @@
 :root{
-    --primer-color:#16220C;
+    --primer-color: black;
     --segundo-color:#F39201;
     --tercer-color:#FFA559;
     --cuarto-color:white;
+    --quinto-color:grey ;
 }
+
 
 *{
     box-sizing: border-box;
