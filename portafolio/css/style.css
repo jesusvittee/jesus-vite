@@ -112,6 +112,31 @@ h2 {
     align-items: center;
     justify-content: center;
 }
+.post-portafolio{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: auto;
+    margin: 1.5rem;
+}
+.post-portafolio > a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+.post-portafolio__link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.5rem;
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 12rem;
+    background-color: var(--tercer-color);
+    border-radius: 1.4rem;
+}
 .post-contenido{
     display: flex;
     flex-direction: column;
@@ -145,10 +170,10 @@ h2 {
     font-size: 4rem;
     text-align: center;
 }
-.tres{
+.dos{
     flex-direction: column;
 }
-.tres > h2{
+.dos > h2{
     color: var(--primer-color);
     font-size: 4rem;
     text-align: center;
@@ -167,9 +192,8 @@ h2 {
     border-radius: .5rem;
     text-align: center;
 }
-.main-section__article p:hover{
+.tres p:hover{
     background-color: var(--tercer-color);
-    
 }
 
 .main-article-social{
@@ -209,6 +233,10 @@ a > h2{
     color: var(--primer-color);
     font-size: 4rem;
 }
+.social{
+    display: flex;
+    flex-direction: column;
+}
 .main-article__item{
     display: flex;
     flex-direction: column;
@@ -239,6 +267,9 @@ a > figure{
 figure .github{
 width: 90px;
 height: 90px;
+margin: 1rem;
+border: 1.2rem solid transparent;
+box-sizing: border-box;
 }
 figure .linkedin{
 width: 90px;

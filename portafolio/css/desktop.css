@@ -1,25 +1,9 @@
 
-    .vacio{
-        display: flex;
-        flex-wrap: wrap;
-        width: 35%;
-        height: 64px;
-        background-color: var(--primer-color);
-        order: 3;
-        border-bottom: .2px solid #D6D6D6;
-    }
-    .main-article-social{
-        width: 25%;
-        order: 4;
-        font-size: 1.5rem;
-    }
     .titulo{
         order: 5;
     }
     /* -------------------------------------- */
-    body {
-        background-image: url("/portafolio/mobile/desktopp.png");
-    }
+
     .main-section{
         display: flex;
         flex-direction: row;
@@ -27,12 +11,40 @@
         flex-wrap: wrap;
         height: auto;
         margin-top: 1.5rem;
-        width: 60%;
+        width: 90%;
     }
-
-    .main-section__article{
+    .post-portafolio__link{
+        font-size: 4.5rem;
+        height: 20rem;
+    }
+    .post-portafolio{
         display: flex;
-        height: 400px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+     } 
+     .main-article-lista {
+        display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+     .social{
+        width: 100%;
     }
-    
+    .post-portafolio > a{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 50%;
+        justify-content: center;
+    }
+    .post-contenido{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+     } 
+    .post-contenido > a{
+        width: 50%;
+    }

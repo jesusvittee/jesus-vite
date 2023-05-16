@@ -1,43 +1,53 @@
   
-    .main-article__item{
-        margin: 5px;
-    }
-    .main-article-social{
-        display: flex;
-        width: 45%;
-        min-width: 40px;
-        font-size: 64px;
-        font-size: 1.5rem;
-        display: flex;
-        align-items: center;
-        padding: .5rem;
-        border-radius: 3px;
-    }
-    h1{
-        font-size: 8rem;
-    }
-    h2 {
-        font-size: 2.5rem;
-    }
-    /* ---------------------- */
-    body{
-        background-image: url("/portafolio/mobile/tablet.png");
-    }
+
     .main-section{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        width: 80%;
+        margin: 1rem 0;
     }
-
-    .main-section__article{
-        height: 200px;
-        box-sizing: border-box;
+    .post-contenido > a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
     }
-
-    p{
-        font-size: 1.6rem;
+    .post-contenido__link{
+        font-size: 4.5rem;
+        height: 20rem;
     }
+    .main-section__article p{
+        font-size: 2rem;
+    }
+    /* .main-article-lista{
+        width: 100%;
+    } */
+    .main-article-social{
+        min-width: 40px;
+        font-size: 64px;
+        font-size: 1.5rem;
+        padding: .5rem;
+        border-radius: 3rem;
+    }
+    .main-article__item{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 5px;
+        width: 50%;
+    }
+    .social{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    a > figure{
+        display: flex;
+        justify-content: center;
+        width: 90px;
+        height: 90px;
+        margin:1rem 0 ;
+    }
+ 
 .footer-class{
     font-size: 2rem;  
     
