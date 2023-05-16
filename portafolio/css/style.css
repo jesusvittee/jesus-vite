@@ -188,6 +188,9 @@ h2 {
     border-radius: .5rem;
     text-align: center;
 }
+.tres p{
+    text-align: justify;
+}
 .tres p:hover{
     background-color: var(--tercer-color);
 }
@@ -206,9 +209,17 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* width: 90%; */
-    /* height: auto; */
-
+}
+.foto-jesus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.foto-jesus > img{
+    width: 20rem;
+    width: 20rem;
+    border-radius: 3rem;
+    padding: 2rem 0;
 }
 a > h2{
     text-align:center;
@@ -277,7 +288,14 @@ box-sizing: border-box;
 figure .instagram{
 width: 80px;
 height: 80px;
-margin: 2.5rem;
+margin: 1.8rem;
+border: 1.2rem solid transparent;
+border-radius: 50%;
+}
+figure .blogging {
+width: 80px;
+height: 80px;
+margin: 1.8rem;
 border: 1.2rem solid transparent;
 border-radius: 50%;
 }
@@ -293,7 +311,10 @@ border-radius: 50%;
     background-color: var(--tercer-color);
     border: 1.2rem solid var(--tercer-color);
 }
-
+.blogging:hover{
+    background-color: var(--tercer-color);
+    border: 1.2rem solid var(--tercer-color);
+}
 
 a:hover{
     color: gold;

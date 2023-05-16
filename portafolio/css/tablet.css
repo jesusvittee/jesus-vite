@@ -47,6 +47,15 @@
         height: 90px;
         margin:1rem 0 ;
     }
+    .foto-jesus{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .foto-jesus > img{
+        border-radius: 3rem;
+        padding: 2rem;
+    }
  
 .footer-class{
     font-size: 2rem;  
