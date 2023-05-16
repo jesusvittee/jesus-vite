@@ -36,6 +36,11 @@
      .social{
         width: 100%;
     }
+      .foto-jesus{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
     .post-portafolio > a{
         display: flex;
         flex-direction: row;

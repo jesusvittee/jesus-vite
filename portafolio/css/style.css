@@ -133,8 +133,8 @@ h2 {
     background-image: url("https://img.freepik.com/vector-gratis/fondo-poligonal-amarillo-3d_23-2148400330.jpg?t=st=1684264989~exp=1684265589~hmac=c2a3ffba1eb3695e6147342a397fb51bb472c41b53c6eb924c516d75100b5a08");
     border-radius: 1.4rem;
     box-shadow: -1px 11px 18px -8px rgba(0,0,0,0.99);
--moz-box-shadow: -1px 11px 18px -8px rgba(0,0,0,0.99);
-box-shadow: -1px 11px 18px -8px rgba(0,0,0,0.99);
+    -moz-box-shadow: -1px 11px 18px -8px rgba(0,0,0,0.99);
+    box-shadow: -1px 11px 18px -8px rgba(0,0,0,0.99);
 }
 .post-portafolio__link:hover, .post-contenido__link:hover{
     width: 90%;
@@ -227,12 +227,15 @@ h3{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 2rem;
 }
 .foto-jesus > img{
-    width: 20rem;
-    width: 20rem;
+    width: 200px;
+    height: 200px;
     border-radius: 3rem;
-    padding: 2rem 0;
+    box-shadow: -1px 11px 18px -8px rgba(0,0,0,0.99);
+    -moz-box-shadow: -1px 11px 18px -8px rgba(0,0,0,0.99);
+    box-shadow: -1px 11px 18px -8px rgba(0,0,0,0.99);
 }
 a > h2{
     text-align:center;
