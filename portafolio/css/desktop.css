@@ -17,6 +17,10 @@
         font-size: 4.5rem;
         height: 20rem;
     }
+    .post-portafolio__link:hover, .post-contenido__link:hover{
+        width: 90%;
+        height: 22rem;
+    }
     .post-portafolio{
         display: flex;
         flex-direction: row;

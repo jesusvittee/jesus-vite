@@ -130,8 +130,15 @@ h2 {
     justify-content: center;
     width: 80%;
     height: 12rem;
-    background-color: var(--tercer-color);
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-poligonal-amarillo-3d_23-2148400330.jpg?t=st=1684264989~exp=1684265589~hmac=c2a3ffba1eb3695e6147342a397fb51bb472c41b53c6eb924c516d75100b5a08");
     border-radius: 1.4rem;
+    box-shadow: -1px 11px 18px -8px rgba(0,0,0,0.99);
+-moz-box-shadow: -1px 11px 18px -8px rgba(0,0,0,0.99);
+box-shadow: -1px 11px 18px -8px rgba(0,0,0,0.99);
+}
+.post-portafolio__link:hover, .post-contenido__link:hover{
+    width: 90%;
+    height: 14rem;
 }
 .post-contenido{
     display: flex;
@@ -155,8 +162,11 @@ h2 {
     justify-content: center;
     width: 80%;
     height: 12rem;
-    background-color: var(--tercer-color);
     border-radius: 1.4rem;
+    background-image: url("https://img.freepik.com/vector-gratis/diseno-triangulo-3d-fondo-tonos-violetas-vivos_23-2148421245.jpg?w=996&t=st=1684265760~exp=1684266360~hmac=b7f490e84ca770333a500614840d8661fc508e5e5acaab5ccb7e9da1af953ea7");
+    box-shadow: -1px 11px 18px -8px rgba(0,0,0,0.99);
+    -moz-box-shadow: -1px 11px 18px -8px rgba(0,0,0,0.99);
+    box-shadow: -1px 11px 18px -8px rgba(0,0,0,0.99);
 }
 .uno{
     flex-direction: column;
@@ -187,6 +197,9 @@ h2 {
     opacity: .6;
     border-radius: .5rem;
     text-align: center;
+}
+h3{
+    color: var(--cuarto-color);
 }
 .tres p{
     text-align: justify;
@@ -252,8 +265,8 @@ a > h2{
     height: 13rem;
 }
 
-.main-article__item a {
-    color: var(--tercer-color);
+.main-article__item > a {
+    color: var(--primer-color);
     padding:.5rem;
     border-radius: .4rem;
     text-decoration: none;
