@@ -11,16 +11,8 @@
         flex-wrap: wrap;
         height: auto;
         margin-top: 1.5rem;
-        width: 90%;
     }
-    .post-portafolio__link{
-        font-size: 4.5rem;
-        height: 20rem;
-    }
-    .post-portafolio__link:hover, .post-contenido__link:hover{
-        width: 90%;
-        height: 22rem;
-    }
+
     .post-portafolio{
         display: flex;
         flex-direction: row;
@@ -33,9 +25,6 @@
         justify-content: center;
         align-items: center;
      }
-     .social{
-        width: 100%;
-    }
       .foto-jesus{
         display: flex;
         flex-direction: row;
@@ -45,7 +34,7 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        width: 50%;
+        width: 45%;
         justify-content: center;
     }
     .post-contenido{

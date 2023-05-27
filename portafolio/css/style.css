@@ -1,9 +1,12 @@
 :root{
-    --primer-color: black;
-    --segundo-color:#F39201;
-    --tercer-color:#FFA559;
-    --cuarto-color:white;
-    --quinto-color:grey ;
+        --negro: black;
+        --segundo-color:#0077B5;
+        --tercer-color:#313335;
+        --cuarto-color:#00A0DC;
+        --quinto-color:#86888A;
+        --sexto-color:#CACCCE;
+        --anaranjado:#F5B901;
+        --blanco:white;   
 }
 
 *{
@@ -12,6 +15,8 @@
     margin: 0;
 }
 html{
+    background: radial-gradient(circle, rgba(245,185,1,0.1265295546929709) 0%, rgba(255,255,255,0.4934763334044555) 51%,
+    rgba(34,193,195,0.22750344972931935) 100%);
     font-size: 62.5%;
     font-family: 'Teko', sans-serif;
 }
@@ -82,12 +87,6 @@ img{
     margin-bottom: 1rem;
 }
 
-h2 {
-    color: var(--cuarto-color);
-    margin-top: .5rem;
-    font-size: 1.8rem;
-    max-width: 90%;
-}
 
 .main-section{
     display: flex;
@@ -103,38 +102,32 @@ h2 {
     display: flex;
     width: 100%;
     min-height: 200px;
-    border: solid .1rem var(--primer-color);
     border-radius: 1.5rem;   
-    align-items: center;
     justify-content: center;
+    padding-bottom: 4rem;
 }
 .post-portafolio{
     display: flex;
     flex-direction: column;
-    width: 85%;
     height: auto;
-    margin: 1.5rem;
+    gap: 3.4rem;
 }
 .post-portafolio > a{
     display: flex;
     flex-direction: column;
     align-items: center;
     text-decoration: none;
+    border: solid .4rem var(--segundo-color);
+    border-radius: 1.5rem;
+    padding: 2rem;
 }
 .post-portafolio__link{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    font-size: 2.5rem;
-    text-align: center;
+    font-size: 2rem;
     justify-content: center;
-    width: 80%;
+    width: 100%;
     height: 12rem;
-    background-image: url("https://img.freepik.com/vector-gratis/fondo-poligonal-amarillo-3d_23-2148400330.jpg?t=st=1684264989~exp=1684265589~hmac=c2a3ffba1eb3695e6147342a397fb51bb472c41b53c6eb924c516d75100b5a08");
-    border-radius: 1.4rem;
-    box-shadow: -1px 11px 18px -8px rgba(0,0,0,0.99);
-    -moz-box-shadow: -1px 11px 18px -8px rgba(0,0,0,0.99);
-    box-shadow: -1px 11px 18px -8px rgba(0,0,0,0.99);
 }
 .post-portafolio__link:hover, .post-contenido__link:hover{
     width: 90%;
@@ -143,67 +136,62 @@ h2 {
 .post-contenido{
     display: flex;
     flex-direction: column;
-    width: 85%;
     height: auto;
-    margin: 1.5rem;
+    gap: 3.4rem;
+   
 }
 .post-contenido > a{
     display: flex;
     flex-direction: column;
     align-items: center;
     text-decoration: none;
+    border: solid .4rem var(--segundo-color);
+    border-radius: 1.5rem;
+    padding: 2rem;
 }
 .post-contenido__link{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    font-size: 2.5rem;
-    text-align: center;
+    font-size: 2rem;
     justify-content: center;
-    width: 80%;
+    width: 100%;
     height: 12rem;
-    border-radius: 1.4rem;
-    background-image: url("https://img.freepik.com/vector-gratis/diseno-triangulo-3d-fondo-tonos-violetas-vivos_23-2148421245.jpg?w=996&t=st=1684265760~exp=1684266360~hmac=b7f490e84ca770333a500614840d8661fc508e5e5acaab5ccb7e9da1af953ea7");
-    box-shadow: -1px 11px 18px -8px rgba(0,0,0,0.99);
-    -moz-box-shadow: -1px 11px 18px -8px rgba(0,0,0,0.99);
-    box-shadow: -1px 11px 18px -8px rgba(0,0,0,0.99);
 }
 .uno{
     flex-direction: column;
 }
-.uno > h2{
-    color: var(--primer-color);
-    font-size: 4rem;
-    text-align: center;
-}
 .dos{
     flex-direction: column;
 }
-.dos > h2{
-    color: var(--primer-color);
-    font-size: 4rem;
-    text-align: center;
-}
+
 .cuatro{
     flex-direction: column;
+    align-items: center;
 }
 .main-section__article p{
-    width: 90%;
+    width: 100%;
     min-height: 20px;
-    font-size: 1.6rem;
-    margin-top:1.5rem;
+    font-size: 2rem;
     color: var(--primer-color);
-    padding: 1.5rem;
+    padding-bottom: 1.5rem;
     opacity: .6;
     border-radius: .5rem;
-    text-align: center;
+    text-align: left;
+}
+h2{
+    color: var(--tercer-color);
+    font-size: 2rem;
+    margin:1.5rem 0;
+    text-align: left;
+    width: 100%;
 }
 h3{
-    color: var(--cuarto-color);
+    color: var(--tercer-color);
 }
-.tres p{
-    text-align: justify;
+.tres{
+    border: solid .4rem var(--segundo-color);
 }
+
 .tres p:hover{
     background-color: var(--tercer-color);
 }
@@ -212,7 +200,7 @@ h3{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 85%;
+    width: 100%;
     height: auto;
     margin: 1rem;
 }
@@ -237,17 +225,12 @@ h3{
     -moz-box-shadow: -1px 11px 18px -8px rgba(0,0,0,0.99);
     box-shadow: -1px 11px 18px -8px rgba(0,0,0,0.99);
 }
-a > h2{
-    text-align:center;
-    color: var(--primer-color);
-    font-size: 4rem;
-    margin-top:1.5rem;
-}
+
 .main-article-lista{
     display: flex;
     list-style: none;
     flex-direction: column;
-    width: 80%;
+    width: 100%;
     height: auto;
     margin: 1rem;
     align-items: center;
@@ -259,6 +242,7 @@ a > h2{
 .social{
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 .main-article__item{
     display: flex;
@@ -359,7 +343,7 @@ footer{
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 120px;
+    height: 70px;
     background-color:var(--primer-color);
     list-style: none;
 } 

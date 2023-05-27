@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 .main-section__article{
-    padding:8rem 0;
+    padding-bottom: 8rem;
 }
 .foto-jesus > img{
    width: 30rem;
