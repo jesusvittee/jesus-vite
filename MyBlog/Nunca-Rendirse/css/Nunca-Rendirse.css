@@ -84,7 +84,6 @@ title{
     flex-direction: row;
     margin: 35px 0 0;
     padding-top: 15px;
-    border-top: 1px solid var(--tercer-color);
 }
 
 .tarjet > img{
@@ -98,7 +97,7 @@ title{
 div > p {
     margin: 0;
     font-size: 1.6rem;
-    color: var(--primer-color);
+    color: var(--sexto-color);
 }
 
 .conteiner{
