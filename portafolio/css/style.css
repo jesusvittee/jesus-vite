@@ -104,7 +104,7 @@ img{
     min-height: 200px;
     border-radius: 1.5rem;   
     justify-content: center;
-    padding-bottom: 4rem;
+    margin-bottom: 4rem;
 }
 .post-portafolio{
     display: flex;
@@ -127,12 +127,8 @@ img{
     font-size: 2rem;
     justify-content: center;
     width: 100%;
-    height: 12rem;
 }
-.post-portafolio__link:hover, .post-contenido__link:hover{
-    width: 90%;
-    height: 14rem;
-}
+
 .post-contenido{
     display: flex;
     flex-direction: column;
@@ -155,7 +151,6 @@ img{
     font-size: 2rem;
     justify-content: center;
     width: 100%;
-    height: 12rem;
 }
 .uno{
     flex-direction: column;
@@ -168,12 +163,11 @@ img{
     flex-direction: column;
     align-items: center;
 }
-.main-section__article p{
+p{
     width: 100%;
     min-height: 20px;
     font-size: 2rem;
-    color: var(--primer-color);
-    padding-bottom: 1.5rem;
+    color: var(--tercer-color);
     opacity: .6;
     border-radius: .5rem;
     text-align: left;
@@ -181,7 +175,7 @@ img{
 h2{
     color: var(--tercer-color);
     font-size: 2rem;
-    margin:1.5rem 0;
+    margin-bottom:4rem;
     text-align: left;
     width: 100%;
 }
@@ -190,10 +184,6 @@ h3{
 }
 .tres{
     border: solid .4rem var(--segundo-color);
-}
-
-.tres p:hover{
-    background-color: var(--tercer-color);
 }
 
 .main-article-social{
@@ -216,13 +206,12 @@ h3{
     flex-direction: column;
     align-items: center;
     padding: 2rem;
+    gap: 2rem;
 }
 .foto-jesus > img{
     width: 200px;
     height: 200px;
     border-radius: 3rem;
-    box-shadow: -1px 11px 18px -8px rgba(0,0,0,0.99);
-    -moz-box-shadow: -1px 11px 18px -8px rgba(0,0,0,0.99);
     box-shadow: -1px 11px 18px -8px rgba(0,0,0,0.99);
 }
 
@@ -243,6 +232,7 @@ h3{
     display: flex;
     flex-direction: column;
     width: 100%;
+    align-items: center;
 }
 .main-article__item{
     display: flex;
@@ -299,29 +289,7 @@ margin: 1.8rem;
 border: 1.2rem solid transparent;
 border-radius: 50%;
 }
-.github:hover{
-    background-color: var(--tercer-color);
-    border-radius: 50%;
-}
-.linkedin:hover{
-    background-color: var(--tercer-color);
-    border: 1.2rem solid var(--tercer-color);
-}
-.instagram:hover{
-    background-color: var(--tercer-color);
-    border: 1.2rem solid var(--tercer-color);
-}
-.blogging:hover{
-    background-color: var(--tercer-color);
-    border: 1.2rem solid var(--tercer-color);
-}
 
-a:hover{
-    color: gold;
-}
-a:active{
-    color: white;
-}
 
 .titulo{
     width: 90%;

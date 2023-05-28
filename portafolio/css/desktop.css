@@ -29,6 +29,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
+        align-items: flex-start;
     }
     .post-portafolio > a{
         display: flex;

@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 .main-section__article{
-    padding-bottom: 8rem;
+    margin-bottom: 8rem;
 }
 .foto-jesus > img{
    width: 30rem;
@@ -43,20 +43,3 @@ figure .blogging{
     border: 1.2rem solid transparent;
     box-sizing: border-box; 
     }
-.github:hover{
-    background-color: var(--tercer-color);
-    border-radius: 50%;
-}
-.linkedin:hover{
-    background-color: var(--tercer-color);
-    border: 1.2rem solid var(--tercer-color);
-}
-.instagram:hover{
-    background-color: var(--tercer-color);
-    border: 1.2rem solid var(--tercer-color);
-}
-
-.blogging:hover{
-    background-color: var(--tercer-color);
-    border: 1.2rem solid var(--tercer-color);
-}
