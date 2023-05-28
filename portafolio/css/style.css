@@ -120,6 +120,7 @@ img{
     border: solid .4rem var(--segundo-color);
     border-radius: 1.5rem;
     padding: 2rem;
+    min-height: 15rem;
 }
 .post-portafolio__link{
     display: flex;
@@ -144,6 +145,7 @@ img{
     border: solid .4rem var(--segundo-color);
     border-radius: 1.5rem;
     padding: 2rem;
+    min-height: 10rem;
 }
 .post-contenido__link{
     display: flex;
