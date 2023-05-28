@@ -36,22 +36,32 @@ header{
 .conteiner-bio{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     justify-content: center;
     width: 90%;
     height: auto;
 }
+figure{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 figure img{
+    width: 50%;
     padding: 2rem;
     border-radius: 2rem;
+    align-items: center;
 }
 h1{
     display: flex;
     justify-content: center;
-    align-items: center;
+    text-align: center;
     color: var(--segundo-color);
     font-size: 4.2rem;
+    width: 100%;
     margin-top: 4rem;
     margin-bottom: 2rem;
     font-weight: 400;
@@ -61,8 +71,25 @@ h2{
     margin-bottom:2rem;
     font-size: 2.4rem;
 }
-p{
+h3{
     font-size: 1.8rem;
+    margin-bottom: 1.8rem;
+    color: var(--quinto-color);
+    text-align: center;
+    width: 100%;
+}
+ul{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1.8rem;
+    color: var(--quinto-color);
+    text-align: left;
+    margin-bottom:2rem;
+}
+p{
+    font-size: 1.4rem;
     margin-bottom: 1.8rem;
     font-family: 'Noto Sans Georgian', sans-serif;
     text-align: justify;
