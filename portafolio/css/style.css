@@ -134,9 +134,10 @@ img{
     align-items: center;
     text-decoration: none;
     background-color: var(--blanco);
-    border-radius: .3rem;
+    border-radius: .5rem;
     padding: 2rem;
     min-height: 15rem;
+    background: radial-gradient(circle, rgba(164,128,242,1) 10%, rgba(68,94,242,1) 23%, rgba(34,20,38,1) 85%);
 }
 .post-portafolio > a:hover {
     opacity: .5;
@@ -150,13 +151,7 @@ img{
     font-size: 2rem;
     justify-content: center;
     width: 100%;
-    background-image: linear-gradient(to left, var(--negro),var(--segundo-color), var(--cuarto-color), var(--segundo-color), var(--negro));
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-    color: transparent;
     font-size: 3rem;
-    font-weight: 800;
 }
 
 .post-contenido{
@@ -174,7 +169,6 @@ img{
     border-radius: .5rem;
     padding: 2rem;
     min-height: 10rem;
-    background-color: var(--blanco);
     
 }
 .post-contenido > a:hover {
@@ -186,18 +180,13 @@ img{
     font-size: 2rem;
     justify-content: center;
     width: 100%;
-    background-image: linear-gradient(to left, var(--negro),var(--segundo-color), var(--cuarto-color), var(--segundo-color), var(--negro));
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-    color: transparent;
     font-size: 3rem;
-    font-weight: 800;
 }
 .uno{
     flex-direction: column;
 }
 .dos{
+      /* background: radial-gradient(circle, rgba(164,128,242,1) 10%, rgba(68,94,242,1) 23%, rgba(34,20,38,1) 85%); */
     flex-direction: column;
 }
 .tres{
@@ -212,7 +201,7 @@ p{
     width: 100%;
     min-height: 20px;
     font-size: 2rem;
-    color: var(--negro);
+    color: var(--quinto-color);
     border-radius: .5rem;
     text-align: left;
 }
@@ -228,6 +217,7 @@ h2{
 }
 h3{
     color: var(--sexto-color);
+    text-shadow: 3px 1px 7px var(--quinto-color);
 }
 /* .tres{
     border: solid .4rem var(--segundo-color);
