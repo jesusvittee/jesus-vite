@@ -5,7 +5,7 @@
         --cuarto-color:#A480F2;
         --quinto-color:#F2F2F2;
         --sexto-color:#1D1340;
-        --anaranjado:#F5B901;
+        --platzi:#98CA3F;
         --blanco:white;  
 }
 
@@ -165,7 +165,8 @@ body{
     flex-direction: column;
     height: auto;
     gap: 3.4rem;
-   
+    border-radius: .5rem;
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(152,202,63,1) 46%, rgba(29,19,64,1) 100%);
 }
 .post-contenido > a{
     display: flex;
