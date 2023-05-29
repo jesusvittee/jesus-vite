@@ -25,30 +25,25 @@ a > figure{
     display: flex;
     justify-content: center;
     width: 90%;
-    height: 200px;
-    margin:0 4rem;
 }
 figure .github{
-width: 120px;
-height: 120px;
-border: 1.2rem solid transparent;
-box-sizing: border-box;
+    width: 120px;
+    border: 1.2rem solid transparent;
+    box-sizing: border-box;
 }
 figure .linkedin{
-width: 130px;
-height: 130px;
-border: 1.2rem solid transparent;
-box-sizing: border-box;
+    width: 130px;
+    border: 1.2rem solid transparent;
+    box-sizing: border-box;
 }
 figure .instagram{
-width: 120px;
-height: 120px;
-border: 1.2rem solid transparent;
-box-sizing: border-box;
+    width: 120px;
+    border: 1.2rem solid transparent;
+    box-sizing: border-box;
 }
 figure .blogging{
     width: 120px;
-    height: 120px;
+
     border: 1.2rem solid transparent;
     box-sizing: border-box; 
-    }
+}
