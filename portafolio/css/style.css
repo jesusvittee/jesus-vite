@@ -44,10 +44,10 @@ html{
 .header-content__all{
     display: grid;
     justify-content: center;
-    padding: 0 2rem;
     align-items: center;
     justify-items: center;
     align-content: center;
+    width: 100%;
 }
 .perfil{
     border-radius: 50%;
@@ -61,15 +61,29 @@ html{
 }
 .header-content__all h1{
     color: var(--segundo-color);
-    font-size: 4rem;
-    margin: 2rem 0;
+    font-size: 2.4rem;
+    margin-bottom: 4rem;
+    font-weight: 800;
+    font-family: 'Teko', sans-serif;
 }
+
 .header-content__all > p{
-    color: var(--cuarto-color);
-    font-size: 2rem;
+    color: var(--tercer-coloruarto-color);
+    font-size: 2.4rem;
     margin-bottom:2rem;
     text-align: center;
+    margin-bottom: 4rem;
+    width: 100%;
 }
+.header-content__all > .estudio{
+    background-image: linear-gradient(to left, var(--negro),var(--segundo-color), var(--segundo-color), var(--cuarto-color), var(--segundo-color), var(--negro),var(--negro));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 4.5rem;
+    font-weight: 800;
+}   
 img{
     border-radius: 50%;
 }
@@ -178,7 +192,7 @@ h2{
     margin-bottom:4rem;
     text-align: left;
     width: 100%;
-    font-family: 'Teko', sans-serif;
+    /* font-family: 'Teko', sans-serif; */
 }
 h3{
     color: var(--tercer-color);
