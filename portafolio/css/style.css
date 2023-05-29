@@ -85,10 +85,6 @@ body{
     font-size: 4.5rem;
     font-weight: 800;
 }   
-img{
-    border-radius: 50%;
-}
-
 /* ---------------------------------------------------------- */
 
 .main-conteiner{
@@ -285,7 +281,6 @@ div > p{
 
 .main-article__item > a {
     color: var(--primer-color);
-    border-radius: .4rem;
     text-decoration: none;
     font-size: 2rem;
     display: flex;
@@ -298,7 +293,6 @@ div > p{
 .main-article__item > a:hover{
     background-color: var(--blanco);
     opacity: .5;
-
     box-sizing: border-box;
 }
 a > figure{
@@ -308,26 +302,12 @@ a > figure{
     height: 90px;
     margin-bottom: 2rem;
 }
-figure .github{
+figure > img{
 width: 90px;
 height: 90px;
 box-sizing: border-box;
 }
-figure .linkedin{
-width: 90px;
-height: 90px;
-box-sizing: border-box;
-}
-figure .instagram{
-width: 80px;
-height: 80px;
-border-radius: 50%;
-}
-figure .blogging {
-width: 80px;
-height: 80px;
-border-radius: 50%;
-}
+
 
 
 .titulo{
