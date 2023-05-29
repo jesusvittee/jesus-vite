@@ -85,6 +85,16 @@ body{
     font-size: 4.5rem;
     font-weight: 800;
 }   
+.flecha{
+    margin-top: 15rem;
+    width: 4rem;
+
+}
+.flecha > img {
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+}
 /* ---------------------------------------------------------- */
 
 .main-conteiner{
