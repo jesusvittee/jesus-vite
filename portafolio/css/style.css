@@ -109,7 +109,7 @@ img{
     flex-direction: row;
     flex-wrap: wrap;
     width: 90%;
-    height: 100vh;
+    height: auto;
 }
 .main-section__article{
     display: flex;
