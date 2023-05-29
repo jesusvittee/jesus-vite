@@ -34,8 +34,7 @@
         justify-content: center;
         flex-wrap: wrap;
         width: 90%;
-        height: auto;
-        
+        height: auto;  
     }
 
     .main-section__article{
@@ -44,6 +43,27 @@
         height: auto;
         flex-direction: column;
         margin: 1rem;
+    }
+    figure{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    figure > img{
+        max-width: 60rem;
+    }
+    .contenido-resumen-img{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .contenido-resumen-img > p {
+        color: var(--tercer-color);
+        font-size: 1.5rem;
+        height: auto;
+        font-family: 'Noto Sans Georgian', sans-serif;
+        text-align: justify;
     }
     .footer a{
         display: none;

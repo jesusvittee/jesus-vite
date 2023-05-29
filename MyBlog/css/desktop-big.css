@@ -45,6 +45,10 @@
     padding: .5rem;
     border-radius: 3px;
 }
+
+.main-section__article{
+    width: 30%;
+}
 .titulo{
     order: 4;
 }

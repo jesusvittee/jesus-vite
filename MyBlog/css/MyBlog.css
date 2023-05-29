@@ -121,14 +121,14 @@ h2{
 .main-section__article{
     display: flex;
     width: 95%;
-    height: auto;
+    min-height: 10rem;
     flex-direction: column;
     margin: 1rem;
     background-color: var(--blanco);
     border-radius: 1rem;
     padding: 1rem;
 }
-.main-section__article a{
+a{
     padding:.5rem;
     border-radius: .4rem;
     text-decoration: none;
@@ -149,21 +149,42 @@ h3{
     flex-direction: column;
     height: auto;
 }
-.Nunca-Rendirse{
+.artile-content{
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
     height: auto;
     width: 100%;
 }
-.contenido-resumen p {
+figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 3rem;
+}
+figure > img{
+    width: 100%;
+}
+.contenido-resumen > p {
     color: var(--tercer-color);
     font-size: 1.5rem;
     height: auto;
     font-family: 'Noto Sans Georgian', sans-serif;
     text-align: justify;
 }
-
+.contenido-resumen-img{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.contenido-resumen-img > p {
+    color: var(--tercer-color);
+    font-size: 1.5rem;
+    height: auto;
+    font-family: 'Noto Sans Georgian', sans-serif;
+    text-align: justify;
+}
 /* -------------------------- */
 /* recomendable no mover */
 .tarjet{

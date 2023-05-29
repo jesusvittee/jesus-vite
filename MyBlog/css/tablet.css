@@ -42,11 +42,11 @@
 
     .main-section__article{
         width: 45%;
-        height: auto;
         margin-top: 2rem;
         margin-bottom: 2rem;
         box-sizing: border-box;
     }
+   
 .footer-class{
     font-size: 2rem;  
 } 

@@ -1,0 +1,21 @@
+
+.header-conteiner-porcentaje{
+    width: 50%;
+}
+.header-nav-lista{
+    width: 150px;
+    height: 6.5rem;
+}  
+.header-nav-medium{
+    width: 50%;
+}
+.header-nav__item > a {
+   font-size: 2rem;
+}
+.conteiner-bio{
+    width: 50%;
+}
+
+.footer-class{  
+    font-size: 1.8rem;
+} 
