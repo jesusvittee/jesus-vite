@@ -10,7 +10,17 @@
 .header-content__all > p{
     font-size: 2.8rem;
 }
-
+.post-contenido > a{
+    width: 15%;
+    gap: 2rem;
+    align-items: center;
+}
+h3{
+    font-size: 2rem;
+}
+.link-cursos > p{
+    font-size: 1.5rem;
+}
 .foto-jesus{
     gap: 4rem;
 }

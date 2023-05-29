@@ -6,16 +6,20 @@
     margin: 1rem 0;
 }
 
-.post-contenido > a{
+.post-contenido{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;;
     align-items: center;
-    text-decoration: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.post-contenido > a{
+    width: 40%;
+}
+h3{
+    text-align: left;
 }
 
-/* .main-article-lista{
-    width: 100%;
-} */
 .main-article-social{
     min-width: 40px;
     font-size: 64px;

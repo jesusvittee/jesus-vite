@@ -86,7 +86,7 @@ body{
     font-weight: 800;
 }   
 .flecha{
-    margin-top: 15rem;
+    margin-top: 10rem;
     width: 4rem;
 
 }
@@ -142,6 +142,7 @@ body{
     background-color: var(--blanco);
     border-radius: .5rem;
     padding: 2rem;
+    width: 100%;
     min-height: 15rem;
     background: radial-gradient(circle, rgba(164,128,242,1) 10%, rgba(68,94,242,1) 23%, rgba(34,20,38,1) 85%);
 }
@@ -163,23 +164,37 @@ body{
 .post-contenido{
     display: flex;
     flex-direction: column;
+    /* flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; */
     height: auto;
-    gap: 3.4rem;
+    gap: 1rem;
+    padding: .5rem;
     border-radius: .5rem;
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(152,202,63,1) 46%, rgba(29,19,64,1) 100%);
+    background: radial-gradient(circle, var(--platzi) 20%, rgba(29,19,64,1) 100%);
 }
+
 .post-contenido > a{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 3rem;
     align-items: center;
     text-decoration: none;
-    border-radius: .5rem;
-    padding: 2rem;
-    min-height: 10rem;
-    
+    width: 100%;
 }
-.post-contenido > a:hover {
+.link-cursos > p{
+    font-size: 1rem;
+}
+.link-cursos:hover {
     opacity: .4;
+}
+.link-cursos > figure{
+    width: 6rem;
+    height: 6rem;
+}
+.link-cursos > figure > img{
+    width: 6rem;
+    height: 6rem;
 }
 .post-contenido__link{
     display: flex;
@@ -224,7 +239,8 @@ h2{
 }
 h3{
     color: var(--sexto-color);
-    text-shadow: 3px 1px 7px var(--quinto-color);
+    text-align: center;
+    text-shadow: 3px 1px 7px var(--blanco);
 }
 /* .tres{
     border: solid .4rem var(--segundo-color);
