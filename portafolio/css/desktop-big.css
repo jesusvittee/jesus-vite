@@ -7,6 +7,9 @@
 .main-section__article{
     margin-bottom: 8rem;
 }
+.foto-jesus{
+    gap: 4rem;
+}
 .foto-jesus > img{
    width: 30rem;
    height: 30rem;
