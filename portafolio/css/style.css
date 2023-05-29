@@ -190,7 +190,7 @@ img{
     flex-direction: column;
 }
 .tres{
-    background-color: var(--blanco);
+    background-color: var(--sexto-color);
     border-radius: 3rem;
 }
 .cuatro{
