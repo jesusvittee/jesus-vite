@@ -21,8 +21,8 @@ body{
     flex-wrap: wrap;
     width: 100vw;
     height: 100vh;
-    background-image: url("https://img.freepik.com/foto-gratis/pared-textura-hormigon-azul-marino-solido_53876-124584.jpg?w=900&t=st=1685948871~exp=1685949471~hmac=fb0d8c2c2f810e5585ef60ca776dc91b6e4dcf41d235b5dc8b5e0ec54a95be7d");
-}
+    background-image: url('/portafolio/icon/mobile.jpg');
+   }
 header{
     display: flex;
     flex-direction: row;
@@ -238,51 +238,4 @@ footer{
 }
 .inactive{
     display: none;
-}
-
-@media(min-width:600px){
-    .header-menu{
-        display: none;
-    }
-    .sidebar-menu{
-        display: none;
-    }
-    .header-Desktop{
-        display: flex;
-        width: auto;
-        height: auto;
-        margin: 0 2rem;
-    }
-    .main{
-        width: 80vw;
-    }
-    .section-main{
-        width: 80vw;
-    }
-    h1{
-        font-weight: 600;
-        font-size: 3rem;
-    }
-    .text-title{
-        font-size: 2.4rem;
-    }
-    .main-link{
-        font-size: 2rem;
-    }
-    .main-figure{
-        width: 8rem;
-    }
-    .img-js{
-        width: 8rem;
-    }
-    .footer-img{
-        justify-content: flex-end;
-        margin-right: 3rem;
-    }
-    .footer-content{
-        width: 3rem;
-   }
-   .img-skill{
-       width: 3rem;
-   }
 }
