@@ -1,12 +1,8 @@
 :root{
     --negro: black;
-    --segundo-color:#0077B5;
-    --tercer-color:#313335;
-    --cuarto-color:#00A0DC;
-    --quinto-color:#86888A;
-    --sexto-color:#CACCCE;
-    --anaranjado:#F5B901;
-    --blanco:white;
+    --segundo-color:#98CA3F;
+    --tercer-color:white;
+    --cuarto-color:#A480F2;
 }
 
 *{
@@ -16,7 +12,10 @@
 }
 html{
     font-size: 62.5%;
-    font-family: 'Teko', sans-serif;
+    font-family: 'Lora', serif;
+}
+body{
+    background-image: url('/portafolio/icon/mobile.jpg');
 }
 header{
     display: flex;
@@ -75,6 +74,7 @@ title{
     margin-top: 4rem;
     margin-bottom: 2rem;
     font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
 }
 .tarjet{
     width: 100%;
@@ -97,7 +97,7 @@ title{
 div > p {
     margin: 0;
     font-size: 1.6rem;
-    color: var(--sexto-color);
+    color: var(--tercer-color);
 }
 
 .conteiner{
@@ -119,18 +119,20 @@ div > p {
 h2{
     margin-bottom:2rem;
     font-size: 2.4rem;
+    color: var(--tercer-color);
 }
 h3{
     margin-bottom:2rem;
     font-size: 2.4rem;
     color: var(--tercer-color);
     text-align: right;
+    
 }
 .conteiner-bio p{
     font-size: 1.6rem;
     margin-bottom: 2rem;
-    font-family: 'Noto Sans Georgian', sans-serif;
     text-align: justify;
+    color: var(--tercer-color);
 }
 
 
