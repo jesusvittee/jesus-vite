@@ -1,12 +1,8 @@
 :root{
     --negro: black;
-    --segundo-color:#0077B5;
-    --tercer-color:#313335;
-    --cuarto-color:#00A0DC;
-    --quinto-color:#86888A;
-    --sexto-color:#F2F2F2;
-    --anaranjado:#F5B901;
-    --blanco:white;
+    --segundo-color:#98CA3F;
+    --tercer-color:white;
+    --cuarto-color:#A480F2;
 }
 
 *{  font-family: 'Teko', sans-serif;
@@ -22,13 +18,13 @@ body{
     display: grid;
     min-height: 100vh;
     grid-template-rows:auto 1fr auto; 
+    background-image: url('/portafolio/icon/mobile.jpg');
 }
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Cinzel+Decorative:wght@700&family=Corben&display=swap');
 .header-conteiner{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color:var(--blanco);
 }
 .header-nav-left{
     display: none;
@@ -38,7 +34,6 @@ body{
     min-width: 100px;
     height: 64px;
     font-size: 1.5rem;
-    background-color: var(--blanco);
     display: flex;
     align-items: center;
     padding: .5rem;
@@ -49,17 +44,11 @@ body{
     list-style: none;
 }
 .header-nav__item a {
-    color: var(--quinto-color);
+    color: var(--tercer-color);
     padding:.5rem;
     border-radius: .4rem;
     text-decoration: none;
     font-size: 1.6rem;
-}
-.header-nav__item a:hover{
-    color: var(--anaranjado);
-}
-.header-nav__itema:active{
-    color: white;
 }
 
 .header-nav-right {
@@ -68,7 +57,7 @@ body{
 h1{
     color: var(--tercer-color);
     font-size: 4rem;
-    font-family: 'Teko', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     max-width: 90%;
     font-weight: 700;
 }
@@ -76,14 +65,13 @@ h2{
     color: var(--cuarto-color);
     margin-top: 0.5rem;
     font-size: 1.8rem;
-    font-family: 'Teko', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     max-width: 90%;
 }
 .titulo{
     width: 90%;
     height: 200px;
     min-width: 150px;
-    background-color: var(--blanco);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -96,7 +84,6 @@ h2{
     flex-wrap: wrap;
     width: 90%;
     height: 140px;
-    background-color: black;
     margin: 0 auto;
     position: absolute;
 }
@@ -109,7 +96,6 @@ h2{
     width: 100%;
     height: auto;
     min-height: 10px;
-    background-color: var(--sexto-color);
 }
 
 .main-section{
@@ -124,7 +110,6 @@ h2{
     min-height: 10rem;
     flex-direction: column;
     margin: 1rem;
-    background-color: var(--blanco);
     border-radius: 1rem;
     padding: 1rem;
 }
@@ -143,6 +128,7 @@ h3{
     color: var(--segundo-color);
     font-size: 1.9rem;
     margin-bottom: .7rem;
+    font-family: 'Montserrat', sans-serif;
 }
 .contenido-resumen{
     display: flex;
@@ -170,7 +156,7 @@ figure > img{
     color: var(--tercer-color);
     font-size: 1.5rem;
     height: auto;
-    font-family: 'Noto Sans Georgian', sans-serif;
+      font-family: 'Lora', serif;
     text-align: justify;
 }
 .contenido-resumen-img{
@@ -182,7 +168,7 @@ figure > img{
     color: var(--tercer-color);
     font-size: 1.5rem;
     height: auto;
-    font-family: 'Noto Sans Georgian', sans-serif;
+      font-family: 'Lora', serif;
     text-align: justify;
 }
 /* -------------------------- */
@@ -205,7 +191,7 @@ figure > img{
 div > p {
     margin: 0;
     font-size: 1.2rem;
-    color: var(--sexto-color);
+    color: var(--tercer-color);
 }
 /* hasta aca */
 /* ----------------- */
@@ -218,16 +204,14 @@ div > p {
     justify-content: center;
     width: 100%;
     height: 120px;
-    background-color:var(--blanco);
     list-style: none;
     
 }
 .footer-class{
     display: flex;
-    color: var(--quinto-color);
+    color: var(--tercer-color);
     font-size: 1.1rem;
 } 
-
 .footer{
     display: flex;
 }
@@ -236,13 +220,8 @@ div > p {
     margin-right: 2rem;
     max-width: 40px;
     text-decoration: none;
-    color: var(--quinto-color) ;
+    color: var(--tercer-color);
     font-size: 1.1rem;
 }
-.footer:hover{
-    color: var(--anaranjado);
-}
-.footer:active{
-    color: white;
-}
+
 

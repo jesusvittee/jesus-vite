@@ -14,13 +14,10 @@
     flex-wrap: wrap;
     width: 35%;
     height: 64px;
-    background-color: var(--primer-color);
     order: 3;
 }
 .header-nav-right {
     width: 25%;
-    /* padding-right: 1.0rem;
-    padding-left: 2.0rem; */
     order: 4;
     font-size: 1.5rem;
 }

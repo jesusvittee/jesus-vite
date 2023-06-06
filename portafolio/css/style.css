@@ -78,14 +78,14 @@ header{
     color: var(--color-primary);
     font-size: 2rem;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
 }
 .li > .header-ancla{
     font-size: 2rem;
     text-decoration: none;
     color: var(--color-primary);
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
 }
 .sidebar-menu{
     width: 100vw;
