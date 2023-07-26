@@ -47,7 +47,7 @@ body{
     display: flex;
     list-style: none;
 }
-.header-nav__item a {
+.header-nav__item > a {
     color: var(--tercer-color);
     padding:.5rem;
     border-radius: .4rem;
@@ -123,7 +123,7 @@ h2{
 .main-section__article:hover{
     opacity: .6;
 }
-a{
+.artile-content > a {
     padding:.5rem;
     border-radius: .4rem;
     text-decoration: none;
@@ -206,7 +206,47 @@ div > p {
 }
 /* hasta aca */
 /* ----------------- */
-
+.botton-flotante{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+}
+.botton-flotante-link{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    color: var(--tercer-color);
+    text-decoration: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    background-color: var(--cuarto-color);
+    box-shadow: 0px 0px 18px 0px rgba(164,128,242,1);
+    display: flex;
+    align-items: center;
+}
+.user-boton{
+    display: flex;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    padding-bottom: 0rem
+}
+.casa{
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+}
 /* -------------------------------------------- */
 .contenido-footer{
     display: flex;
@@ -226,7 +266,7 @@ div > p {
 .footer{
     display: flex;
 }
-.footer a{
+.footer > a{
     margin-left: 2rem ;
     margin-right: 2rem;
     max-width: 40px;

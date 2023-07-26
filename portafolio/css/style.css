@@ -25,43 +25,43 @@ body{
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    width: 100vw;
+    width: 100%;
     height: auto;
     background-color:var(--negro) ;
    }
 header{
     display: flex;
     flex-direction: row;
-    width: 100vw;
+    width: 100%;
     height: auto;
     align-items: center;
 }
 nav{
     display: flex;
     flex-direction: row;
-    width: 100vw;
+    width: 100%;
     height: auto;
     align-items: center;
 }
 .foto-pueblo{
-    width: 100vw;
+    width: 100%;
     height: 12.5rem;
 }
 .foto-pueblo__img{
-    width: 100vw;
+    width: 100%;
     height: 12.5rem;
 }
 main{
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: 100%;
     height: auto;
 }
 .contenedor-datos__profecionales{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     height: auto;
     margin-bottom: 4rem;
 }
@@ -157,7 +157,7 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--cuarto-color);
+    background-color: var(--segundo-color);
     opacity: 1;
 }
 .leer-blog__contenedor:hover{
@@ -193,4 +193,44 @@ h2{
     width: 4rem;
 }
 
+.botton-flotante{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+}
+.botton-flotante-link{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    color: var(--tercer-color);
+    text-decoration: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 7rem;
+    height: 7rem;
+    background-color: var(--cuarto-color);
+    box-shadow: 0px 0px 18px 0px rgba(164,128,242,1);
+    display: flex;
+    align-items: center;
+}
+.user-boton{
+    display: flex;
+    align-items: center;
+    width: 6rem;
+    height: 6rem;
+}
+.yo{
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+}
 /* ----------------------- */

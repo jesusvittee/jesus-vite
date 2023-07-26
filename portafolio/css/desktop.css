@@ -14,7 +14,6 @@ main{
 .foto-pueblo__img{
     height: 70vh;
 }
-
 .contenedor-datos__profecionales > div{
     width: 78vw;
     background-color: var(--color-section);
