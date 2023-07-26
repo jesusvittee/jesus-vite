@@ -30,34 +30,7 @@ body{
     justify-content: center;
     flex-wrap: wrap;
 }
-.header-nav-left{
-    display: none;
-}
-.header-nav-medium{
-    width: 100%;
-    min-width: 100px;
-    height: 64px;
-    font-size: 1.5rem;
-    display: flex;
-    align-items: center;
-    padding: .5rem;
-    border-radius: 3px;
-}
-.header-nav-lista{
-    display: flex;
-    list-style: none;
-}
-.header-nav__item > a {
-    color: var(--tercer-color);
-    padding:.5rem;
-    border-radius: .4rem;
-    text-decoration: none;
-    font-size: 1.6rem;
-}
 
-.header-nav-right {
-    display: none;
-}
 h1{
     color: var(--tercer-color);
     font-size: 4rem;
@@ -83,14 +56,6 @@ h2{
     text-align: center;
     justify-content: center;
     box-sizing: border-box;
-}
-.vacio::after{
-    display: flex;
-    flex-wrap: wrap;
-    width: 90%;
-    height: 140px;
-    margin: 0 auto;
-    position: absolute;
 }
 
 /* ---------------------------------------------------------- */
