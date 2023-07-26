@@ -13,6 +13,7 @@
 }
 html{
     font-size: 52.6%;
+    font-family: 'Montserrat', sans-serif;
 }
 body{
     display: flex;
@@ -108,8 +109,7 @@ h1{
     font-size: 2.7rem;
     margin-bottom: 2.5rem;
     color: var(--color-primary);
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
 }
 .datos-ubication{
     display: flex;
@@ -129,7 +129,6 @@ h1{
 
 .text-title{
     font-size: 1.8rem;
-    font-family: 'Lora', serif;
     color: var(--color-primary);
     text-align: center;
 }
@@ -151,6 +150,10 @@ h1{
     border: 2px solid var(--cuarto-color);
     opacity: .9;
 }
+.leer-blog__contenedor:hover{
+    opacity: 1;
+    border: 2px solid var(--color-secundary);
+}
 .nombre-ubicacion{
     color: var(--cuarto-color);
 }
@@ -171,7 +174,12 @@ h1{
     width: 4rem;
     opacity: .6;
 }
+.link-figure-social:hover{
+    width: 4rem;
+    opacity: 1;
+}
 .red-social{
     width: 4rem;
 }
+
 /* ----------------------- */
