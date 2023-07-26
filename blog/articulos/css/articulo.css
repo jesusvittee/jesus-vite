@@ -90,6 +90,12 @@ h2{
     font-size: 2.4rem;
     color: var(--tercer-color);
 }
+h3{
+    margin-bottom:2rem;
+    font-size: 2.4rem;
+    color: var(--tercer-color);
+    text-align: right;
+}
 .conteiner-bio p{
     font-size: 1.6rem;
     margin-bottom: 2rem;
