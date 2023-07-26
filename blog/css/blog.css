@@ -3,6 +3,7 @@
     --segundo-color:#98CA3F;
     --tercer-color:white;
     --cuarto-color:#A480F2;
+    --color-terciary:#242424;
 }
 
 *{
@@ -18,7 +19,7 @@ body{
     display: grid;
     min-height: 100vh;
     grid-template-rows:auto 1fr auto; 
-    background-image: url('/portafolio/icon/mobile.jpg');
+    background-color:var(--color-terciary) ;
 }
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Cinzel+Decorative:wght@700&family=Corben&display=swap');
 .header-conteiner{
