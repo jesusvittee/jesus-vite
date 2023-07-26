@@ -231,7 +231,7 @@ div > p {
 .footer{
     display: flex;
 }
-.footer > a{
+.footer  a{
     margin-left: 2rem ;
     margin-right: 2rem;
     max-width: 40px;
