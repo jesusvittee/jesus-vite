@@ -1,9 +1,14 @@
 :root{
-    --color-primary: white;
-    --color-secundary:yellow;
-    --color-terciary:#242424;
-    --cuarto-color:#bbb9b9;
-    --platzi:#333;
+    --negro:#242424;
+
+
+    --segundo-color:#98CA3F;
+    --tercer-color: white;
+    --cuarto-color:#A480F2;
+  
+   
+    --color-section:#333;
+    --font-color:#bbb9b9;
 }
 
 *{
@@ -22,7 +27,7 @@ body{
     flex-wrap: wrap;
     width: 100vw;
     height: auto;
-    background-color:var(--color-terciary) ;
+    background-color:var(--negro) ;
    }
 header{
     display: flex;
@@ -50,7 +55,7 @@ main{
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 100vh;
+    height: auto;
 }
 .contenedor-datos__profecionales{
     display: flex;
@@ -58,6 +63,7 @@ main{
     align-items: center;
     width: 100vw;
     height: auto;
+    margin-bottom: 4rem;
 }
 .contenedor-datos__profecionales > div{
     display: flex;
@@ -108,9 +114,10 @@ align-items: center;
 h1{
     font-size: 2.7rem;
     margin-bottom: 2.5rem;
-    color: var(--color-primary);
+    color: var( --tercer-color);
     font-weight: 600;
 }
+
 .datos-ubication{
     display: flex;
     flex-direction: row;
@@ -129,8 +136,11 @@ h1{
 
 .text-title{
     font-size: 1.8rem;
-    color: var(--color-primary);
+    color: var( --tercer-color);
     text-align: center;
+}
+h2{
+    font-weight: 500;
 }
 .leer-blog{
     display: flex;
@@ -147,15 +157,16 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid var(--cuarto-color);
-    opacity: .9;
+    background-color: var(--cuarto-color);
+    opacity: 1;
 }
 .leer-blog__contenedor:hover{
-    opacity: 1;
-    border: 2px solid var(--color-secundary);
+    opacity: .7;
+
+    
 }
 .nombre-ubicacion{
-    color: var(--cuarto-color);
+    color: var(--font-color);
 }
 .redes-sociales{
     display: flex;

@@ -1,9 +1,11 @@
 :root{
-    --negro: black;
+    --negro:#242424;
+
     --segundo-color:#98CA3F;
     --tercer-color:white;
     --cuarto-color:#A480F2;
-    --color-terciary:#242424;
+
+    --color-section:#333;
 }
 
 *{
@@ -16,7 +18,7 @@ html{
     font-family: 'Lora', serif;
 }
 body{
-    background-color: var(--color-terciary);
+    background-color: var(--negro);
 }
 header{
     display: flex;
@@ -43,7 +45,7 @@ title{
     font-size: 4rem;
     margin-top: 4rem;
     margin-bottom: 2rem;
-    font-weight: 400;
+    font-weight: 500;
     font-family: 'Montserrat', sans-serif;
 }
 .tarjet{

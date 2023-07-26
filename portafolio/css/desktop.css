@@ -17,7 +17,7 @@ main{
 
 .contenedor-datos__profecionales > div{
     width: 78vw;
-    background-color: var(--platzi);
+    background-color: var(--color-section);
     padding:6rem 0 6rem 0;
 }
 .contenedor-img{
