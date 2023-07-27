@@ -1,4 +1,15 @@
-
+h1{
+    font-size: 4rem;
+}
+.link-dato{
+    text-decoration: none;
+    color: var(--tercer-color);
+    font-size: 1.8;
+    font-weight: 600;
+}
+.dato{
+    margin-left: 50rem;
+}
 .header-conteiner-porcentaje{
     width: 50%;
 }

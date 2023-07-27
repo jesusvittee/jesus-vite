@@ -1,3 +1,17 @@
+
+h1{
+    font-weight: 500;
+}
+.link-dato{
+  
+    text-decoration: none;
+    color: var(--tercer-color);
+    font-size: 1.6;
+    font-weight: 600;
+}
+.dato{
+    margin-left: 14rem;
+}
 .header-conteiner-porcentaje{
     justify-content: center;
     width: 80%;

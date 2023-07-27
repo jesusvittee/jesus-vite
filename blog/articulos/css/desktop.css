@@ -1,3 +1,15 @@
+h1{
+    font-size: 3rem;
+}
+.link-dato{
+    text-decoration: none;
+    color: var(--tercer-color);
+    font-size: 1.8;
+    font-weight: 600;
+}
+.dato{
+    margin-left: 40rem;
+}
 .header-conteiner-porcentaje{
     width: 70%;
     padding: 65px 0 95px;
