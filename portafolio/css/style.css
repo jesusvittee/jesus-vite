@@ -192,7 +192,7 @@ h2{
 .red-social{
     width: 4rem;
 }
-
+/* botton flotante absoluto */
 .botton-flotante{
     display: flex;
     flex-direction: column;
@@ -233,4 +233,67 @@ h2{
     width: 6rem;
     height: 6rem;
 }
-/* ----------------------- */
+
+/* apartado de curso */
+.portafolio-cursos{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-datos-cursos{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-size: 2.3rem;
+    color: var(--cuarto-color);
+}
+.datos-cursos{
+    margin: 2rem 0 2rem 0;
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    flex-direction: column;
+}
+.link-curso{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    text-decoration: none;
+    background-color: var(--color-section);
+    align-items: center;
+    justify-content: space-between;
+}
+.link-curso:hover{
+    opacity: .6;
+}
+.datos-curso{
+    margin-right: 2rem;
+    width: 4rem;
+    height: 4rem;
+}
+.datos-curso__img{
+    width: 4rem;
+    height: 4rem;
+}
+.nombre-curso{
+    font-size: 1.6rem;
+    color: var(--font-color);
+}
+.flecha-curso{ 
+    margin-right: 2rem;
+    width: auto;
+    height: auto;
+}
+.flecha-curso__img{
+    width: 2rem;
+    height: 2rem;
+}
