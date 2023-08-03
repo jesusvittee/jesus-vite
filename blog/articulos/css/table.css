@@ -16,10 +16,10 @@ h1{
     justify-content: center;
     width: 80%;
     height: auto;
-    padding: 60px 0 100px;
+    padding: 45px 0 25px;
 }
 title{
-    font-size: 5.5rem;
+    font-size: 2.8rem;
 }
 .header-nav-lista{
     width: 130px;
@@ -28,7 +28,7 @@ title{
         width: 80%;
 }
 .header-nav__item > a {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
 }
 
 .conteiner-bio{
@@ -36,11 +36,10 @@ title{
     width: 80%;
     height: auto;
 }
-.conteiner-bio p {
+.conteiner-bio > p {
     margin-bottom: 3rem;
     height: auto;
+}
+.footer-class{ 
     font-size: 2rem;
-    }
-    .footer-class{ 
-    font-size: 2rem;
-    } 
+} 

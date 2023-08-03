@@ -26,6 +26,7 @@ body{
     display: flex;
     justify-content: center;
     background-color: var(--negro);
+    box-shadow: 0px 4px 11px -6px rgba(255,255,255,1);
     position: fixed;
 }
 .datos-estatico__contenedor{
@@ -37,7 +38,7 @@ body{
     color:var(--tercer-color);
 }
 h1{
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     font-weight: 500;
 
 }
@@ -64,7 +65,7 @@ header{
     flex-direction: column;
     width: 90%;
     display: flex;
-    padding: 35px 0 35px 0;
+    padding: 40px 0 20px 0;
 }
 title{
     width: 100%;
@@ -72,7 +73,9 @@ title{
     justify-content: left;
     align-items: center;
     color: var(--segundo-color);
-    font-size: 4rem;
+    font-size: 2.5rem;
+    text-align: center;
+    justify-content: center;
     margin-top: 4rem;
     margin-bottom: 2rem;
     font-weight: 500;
@@ -84,7 +87,7 @@ title{
     display: grid;
     display: flex;
     flex-direction: row;
-    margin-bottom: 35px;
+    margin-bottom: 15px;
 }
 
 .tarjet > img{
@@ -97,7 +100,7 @@ title{
 }
 div > p {
     margin: 0;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: var(--tercer-color);
 }
 
@@ -119,17 +122,17 @@ div > p {
 
 h2{
     margin-bottom:2rem;
-    font-size: 2.4rem;
+    font-size: 1.6rem;
     color: var(--tercer-color);
 }
 h3{
     margin-bottom:2rem;
-    font-size: 2.4rem;
+    font-size: 1.6rem;
     color: var(--tercer-color);
     text-align: right;
 }
 .conteiner-bio p{
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     margin-bottom: 2rem;
     text-align: justify;
     color: var(--tercer-color);
@@ -139,10 +142,10 @@ figure{
     width: 100%;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
 }
 figure > img{
-    width: 100%;
+    width: 70%;
 }
 
 
