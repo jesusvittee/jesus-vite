@@ -288,6 +288,21 @@ h2{
     font-size: 1.6rem;
     color: var(--font-color);
 }
+.ver-mas{
+    background-color: white;
+    height: 4.5rem;
+    flex-direction: column;
+    justify-content: center;
+    opacity: .6;
+    border-radius: 1rem;
+}
+.ver-mas:hover{
+    opacity: .9;
+    height: 4.8rem;
+}
+.mas-cursos{
+    color: var(--negro);
+}
 .flecha-curso{ 
     margin-right: 2rem;
     width: auto;
