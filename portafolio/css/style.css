@@ -209,6 +209,7 @@ a{
     width: auto;
     height: auto;
     border-radius: 50%;
+    z-index: 1;
 }
 .botton-flotante-link{
     display: flex;

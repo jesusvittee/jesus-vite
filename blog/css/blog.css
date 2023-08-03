@@ -181,6 +181,7 @@ div > p {
     width: 6rem;
     height: 6rem;
     border-radius: 50%;
+    z-index: 1;
 }
 .botton-flotante-link{
     display: flex;
