@@ -4,16 +4,14 @@ body{
 /* header{
     position: relative;
 } */
+nav{
+    height: 70vh;
+}
 main{
     position: absolute;
-    top: 26rem;
+    top: 20rem;
 }
-.foto-pueblo{
-    height: 70vh;
-}
-.foto-pueblo__img{
-    height: 70vh;
-}
+
 .contenedor-datos__profecionales > div{
     width: 78vw;
     background-color: var(--color-section);

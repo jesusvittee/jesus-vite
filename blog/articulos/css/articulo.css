@@ -1,11 +1,12 @@
 :root{
     --negro:#242424;
 
-    --segundo-color:#98CA3F;
-    --tercer-color:white;
+    --segundo-color:#FE8B48;
+    --tercer-color: white;
     --cuarto-color:#A480F2;
-
     --color-section:#333;
+
+    --font-color:#bbb9b9;
 }
 
 *{
@@ -26,7 +27,6 @@ body{
     display: flex;
     justify-content: center;
     background-color: var(--negro);
-    box-shadow: 0px 4px 11px -6px rgba(255,255,255,1);
     position: fixed;
 }
 .datos-estatico__contenedor{

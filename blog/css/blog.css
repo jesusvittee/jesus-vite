@@ -1,11 +1,13 @@
 :root{
-    --negro: #242424;
+    --negro:#242424;
 
-    --segundo-color:#98CA3F;
-    --tercer-color:white;
+    
+    --segundo-color:#FE8B48;
+    --tercer-color: white;
     --cuarto-color:#A480F2;
-
     --color-section:#333;
+
+    --font-color:#bbb9b9;
 }
 
 *{
@@ -39,7 +41,7 @@ h1{
     font-weight: 500;
 }
 h2{
-    color: var(--cuarto-color);
+    color: var(--segundo-color);
     margin-top: 0.5rem;
     font-size: 1.8rem;
     font-family: 'Montserrat', sans-serif;
@@ -100,7 +102,7 @@ h3{
     display: flex;
     justify-content: left;
     align-items: center;
-    color: var(--segundo-color);
+    color: var(--cuarto-color);
     font-size: 1.9rem;
     margin-bottom: .7rem;
     font-family: 'Montserrat', sans-serif;

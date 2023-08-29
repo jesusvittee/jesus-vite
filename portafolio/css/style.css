@@ -1,12 +1,10 @@
 :root{
     --negro:#242424;
 
-
-    --segundo-color:#98CA3F;
+    
+    --segundo-color:#FE8B48;
     --tercer-color: white;
     --cuarto-color:#A480F2;
-  
-   
     --color-section:#333;
     --font-color:#bbb9b9;
 }
@@ -38,18 +36,15 @@ header{
 }
 nav{
     display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: auto;
-    align-items: center;
-}
-.foto-pueblo{
+    flex-direction: column;
     width: 100%;
     height: 12.5rem;
+    align-items: flex-end;
+    background-color: var(--segundo-color);
 }
-.foto-pueblo__img{
-    width: 100%;
-    height: 12.5rem;
+
+h3{
+    color: white;
 }
 main{
     display: flex;
@@ -133,7 +128,6 @@ h1{
     margin-bottom: 2.5rem;
     color: var( --tercer-color);
     font-weight: 600;
-    
 }
 .text-title{
     font-size: 1.8rem;
