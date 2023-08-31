@@ -4,7 +4,6 @@
     
     --segundo-color:#FE8B48;
     --tercer-color: white;
-    --cuarto-color:#A480F2;
     --color-section:#333;
     --font-color:#bbb9b9;
 }
@@ -40,7 +39,7 @@ nav{
     width: 100%;
     height: 12.5rem;
     align-items: flex-end;
-    background-color: var(--segundo-color);
+    background-color: var(--negro);
 }
 
 h3{
@@ -61,11 +60,13 @@ main{
     margin-bottom: 4rem;
 }
 .contenedor-datos__profecionales > div{
+    background-color: var(--color-section);
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 80vw;
     height: auto;
+    padding-bottom: 3rem;
 }
 .contenedor-img{
     display: flex;
@@ -132,7 +133,7 @@ h1{
 .text-title{
     font-size: 1.8rem;
     color: var( --tercer-color);
-    text-align: left;
+    text-align: center;
     margin: .4rem 0 .4rem 0git ;
 }
 h2{
@@ -218,8 +219,8 @@ a{
     border-radius: 50%;
     width: 7rem;
     height: 7rem;
-    background-color: var(--cuarto-color);
-    box-shadow: 0px 0px 18px 0px rgba(164,128,242,1);
+    background-color: var(--segundo-color);
+    box-shadow: 0px 0px 18px 0px rgba(254,139,72,1);
     display: flex;
     align-items: center;
 }
@@ -254,7 +255,7 @@ a{
 }
 h2{
     font-size: 2.3rem;
-    color: var(--cuarto-color);
+    color: var(--segundo-color);
 }
 .datos-cursos{
     margin: 2rem 0 2rem 0;

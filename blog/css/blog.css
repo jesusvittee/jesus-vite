@@ -4,7 +4,6 @@
     
     --segundo-color:#FE8B48;
     --tercer-color: white;
-    --cuarto-color:#A480F2;
     --color-section:#333;
 
     --font-color:#bbb9b9;
@@ -41,7 +40,7 @@ h1{
     font-weight: 500;
 }
 h2{
-    color: var(--segundo-color);
+    color: var(--font-color);
     margin-top: 0.5rem;
     font-size: 1.8rem;
     font-family: 'Montserrat', sans-serif;
@@ -102,7 +101,7 @@ h3{
     display: flex;
     justify-content: left;
     align-items: center;
-    color: var(--cuarto-color);
+    color: var(--segundo-color);
     font-size: 1.9rem;
     margin-bottom: .7rem;
     font-family: 'Montserrat', sans-serif;
@@ -198,8 +197,8 @@ div > p {
     border-radius: 50%;
     width: 6rem;
     height: 6rem;
-    background-color: var(--cuarto-color);
-    box-shadow: 0px 0px 18px 0px rgba(164,128,242,1);
+    background-color: var(--segundo-color);
+    box-shadow: 0px 0px 18px 0px rgba(254,139,72,1);
     display: flex;
     align-items: center;
 }

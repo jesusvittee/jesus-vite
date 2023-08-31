@@ -3,7 +3,6 @@
 
     --segundo-color:#FE8B48;
     --tercer-color: white;
-    --cuarto-color:#A480F2;
     --color-section:#333;
 
     --font-color:#bbb9b9;
@@ -19,7 +18,7 @@ html{
     font-family: 'Montserrat', sans-serif;
 }
 body{
-    background-color: var(--color-section);
+    background-color: var(--negro);
 }
 .dato-estatico{
     width: 100%;
@@ -62,10 +61,13 @@ header{
 }
 .header-conteiner-porcentaje{
     display: grid;
+    border-radius: .5rem .5rem 0 0 ;
+    background-color: var(--color-section);
     flex-direction: column;
-    width: 90%;
+    width: 95%;
     display: flex;
-    padding: 40px 0 20px 0;
+    margin-top: 7rem;
+    padding: 10px 10px 20px 10px;
 }
 title{
     width: 100%;
@@ -76,7 +78,7 @@ title{
     font-size: 2.5rem;
     text-align: center;
     justify-content: center;
-    margin-top: 4rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
@@ -115,9 +117,13 @@ div > p {
 }
 .conteiner-bio{
     justify-content: center;
-    width: 90%;
+    width: 95%;
     height: auto;
+    padding: 0 10px 0 10px;
     margin-bottom: 1.5rem;
+    background-color: var(--color-section);
+    border-radius: 0 0 .5rem .5rem;
+
 }
 
 h2{

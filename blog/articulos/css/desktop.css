@@ -1,3 +1,6 @@
+.datos-estatico__contenedor{
+    width: 70%;
+}
 h1{
     font-size: 2.2rem;
 }
@@ -8,11 +11,10 @@ h1{
     font-weight: 600;
 }
 .dato{
-    margin-left: 40rem;
+    margin-left: 30rem;
 }
 .header-conteiner-porcentaje{
     width: 70%;
-    padding: 65px 0 25px;
 }
 .header-nav-medium{
     width: 70%;

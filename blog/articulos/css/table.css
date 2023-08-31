@@ -1,9 +1,10 @@
-
+.estatico__contenedor{
+    width: 80%;
+}
 h1{
     font-weight: 500;
 }
 .link-dato{
-  
     text-decoration: none;
     color: var(--tercer-color);
     font-size: 1.6;
@@ -16,7 +17,6 @@ h1{
     justify-content: center;
     width: 80%;
     height: auto;
-    padding: 45px 0 25px;
 }
 title{
     font-size: 2.8rem;
