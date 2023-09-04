@@ -325,6 +325,7 @@ ul{
     position: relative;
     margin-top: 2rem;
     gap: 2rem;
+    flex-wrap: wrap;
 }
 .diploma{
     width: 100%;

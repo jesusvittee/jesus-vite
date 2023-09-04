@@ -1,15 +1,16 @@
 body{
     position: relative;
 }
-/* header{
-    position: relative;
-} */
+
 nav{
     height: 70vh;
 }
 main{
     position: absolute;
     top: 20rem;
+}
+.text-title{
+    font-size: 1.8rem;
 }
 .datos-proyectos{
     display: flex;
@@ -38,4 +39,12 @@ main{
     border-radius: 50%;
     width: 25rem;
     height: 25rem;
+}
+.datos-cursos{
+    flex-direction: row;
+    justify-content: space-between;
+    row-gap: 3rem;
+}
+.diploma{
+    width: 30%;
 }
