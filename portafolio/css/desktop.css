@@ -11,7 +11,15 @@ main{
     position: absolute;
     top: 20rem;
 }
-
+.datos-proyectos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+.proyecto{
+    width: 30%;
+}
 .contenedor-datos__profecionales > div{
     width: 78vw;
     background-color: var(--color-section);

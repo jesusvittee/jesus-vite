@@ -12,6 +12,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    color: var(--tercer-color);
 }
 html{
     font-size: 52.6%;
@@ -131,7 +132,7 @@ h1{
     font-weight: 600;
 }
 .text-title{
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     color: var( --tercer-color);
     text-align: center;
     margin: .4rem 0 .4rem 0git ;
@@ -145,10 +146,12 @@ a{
 }
 .leer-blog{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: .5rem;
     align-items: center;
     margin-top: 3rem;
     width: 100%;
+    justify-content: center;
     height: auto;
 }
 .leer-blog__contenedor{
@@ -163,8 +166,6 @@ a{
 }
 .leer-blog__contenedor:hover{
     opacity: .7;
-
-    
 }
 .nombre-ubicacion{
     color: var(--font-color);
@@ -253,64 +254,83 @@ a{
     justify-content: center;
     align-items: center;
 }
+.datos-proyectos{
+    width: 100%;
+    height: auto;
+    margin:2rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.proyecto{
+    background-color: var(--color-section);
+    width: 100%;
+    height: auto;
+    border-radius: .5rem;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+.proyecto-informacion{
+    margin-top: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    height: auto;
+}
 h2{
     font-size: 2.3rem;
     color: var(--segundo-color);
 }
-.datos-cursos{
-    margin: 2rem 0 2rem 0;
-    display: flex;
-    width: 100%;
-    gap: 1rem;
-    flex-direction: column;
+h4{
+    color: white;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
 }
-.link-curso{
-    display: flex;
-    flex-direction: row;
+.proyecto-texto{
+    font-size: 1.4rem;
+}
+ul{
     width: 100%;
     height: auto;
-    text-decoration: none;
-    background-color: var(--color-section);
-    align-items: center;
-    justify-content: space-between;
+    padding-left:3rem;
+    font-size: 1.4rem;
 }
-.link-curso:hover{
-    opacity: .6;
-}
-.datos-curso{
-    margin-right: 2rem;
-    width: 4rem;
-    height: 4rem;
-}
-.datos-curso__img{
-    width: 4rem;
-    height: 4rem;
-}
-.nombre-curso{
-    font-size: 1.6rem;
-    color: var(--font-color);
-}
-.ver-mas{
-    background-color: white;
-    height: 4.5rem;
-    flex-direction: column;
+
+.proyecto-links{
+    display: flex;
+    width: 100%;
     justify-content: center;
-    opacity: .6;
-    border-radius: 1rem;
+    gap: 4rem;
 }
-.ver-mas:hover{
-    opacity: .9;
-    height: 4.8rem;
-}
-.mas-cursos{
-    color: var(--negro);
-}
-.flecha-curso{ 
-    margin-right: 2rem;
+.link-proyecto{
+    text-align: center;
     width: auto;
+    padding: 1rem;
+    background-color: var(--segundo-color);
+    color: var(--tercer-color);
+    border-radius: .5rem;
+}
+.proyecto-contenedor__img{
+    width: 100%;
+    height: 18rem;
+}
+.proyecto-img{
+    width: 100%;
+    height: 100%;
+}
+.datos-cursos{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+.diploma{
+    width: 100%;
     height: auto;
 }
-.flecha-curso__img{
-    width: 2rem;
-    height: 2rem;
+.diploma > img{
+    width: 100%;
+    height: auto;
 }
