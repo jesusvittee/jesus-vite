@@ -40,6 +40,9 @@ main{
     width: 25rem;
     height: 25rem;
 }
+.datos-skills{
+    width: 60%;
+}
 .datos-cursos{
     flex-direction: row;
     justify-content: space-between;
