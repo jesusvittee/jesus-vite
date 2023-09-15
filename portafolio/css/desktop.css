@@ -5,11 +5,7 @@ body{
 nav{
     height: 70vh;
 }
-.contactar{
-    font-size: 1.8rem;
-    color: white;
-    margin:2rem 14rem 0 0;
-}
+
 main{
     position: absolute;
     top: 20rem;
