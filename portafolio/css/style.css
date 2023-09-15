@@ -206,7 +206,7 @@ a{
 /* botton flotante absoluto */
 .botton-flotante{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     position: fixed;
     bottom: 1rem;
@@ -223,24 +223,27 @@ a{
     font-size: 2rem;
     color: var(--tercer-color);
     text-decoration: none;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     border-radius: 50%;
-    width: 7rem;
-    height: 7rem;
+    width: auto;
+    height: 4rem;
     align-items: center;
+}
+.botton-flotante-link >p{
+    font-size: 1rem;
 }
 .user-boton{
     display: flex;
     align-items: center;
-    width: 6rem;
-    height: 6rem;
+    width: 2rem;
+    height: 2rem;
     justify-content: center;
 }
 .yo{
     border-radius: 50%;
-    width: 5rem;
-    height: 5rem;
+    width: 2rem;
+    height: 2rem;
 }
 
 /* apartado de curso */
