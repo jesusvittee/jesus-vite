@@ -26,7 +26,7 @@ body{
     width: 100%;
     height: auto;
     background-color:var(--negro) ;
-   }
+}
 header{
     display: flex;
     flex-direction: row;
@@ -257,80 +257,21 @@ a{
     align-items: center;
 }
 .contenedor-datos-cursos{
-    width: 80%;
+    width: 80vw;
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.datos-proyectos{
-    width: 100%;
-    height: auto;
-    margin:2rem 0 2rem 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.proyecto{
-    background-color: var(--color-section);
-    width: 100%;
-    height: auto;
-    border-radius: .5rem;
-    padding: 1rem;
-    margin-top: 2rem;
-}
-.proyecto-informacion{
-    margin-top: 1.3rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1.3rem;
-    height: auto;
-}
+
+
 h2{
     font-size: 2.3rem;
     color: var(--segundo-color);
 }
-h4{
-    color: white;
-    font-size: 1.3rem;
-    margin-bottom: 1rem;
-}
-.proyecto-texto{
-    font-size: 1.4rem;
-}
-ul{
-    width: 100%;
-    height: auto;
-    padding-left:3rem;
-    font-size: 1.4rem;
-}
 
-.proyecto-links{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    gap: 4rem;
-}
-.link-proyecto{
-    text-align: center;
-    width: auto;
-    padding: 1rem;
-    background-color: var(--segundo-color);
-    color: var(--tercer-color);
-    border-radius: .5rem;
-}
-.link-proyecto:focus{
-    opacity: .7;
-}
-.proyecto-contenedor__img{
-    width: 100%;
-    height: 18rem;
-}
-.proyecto-img{
-    width: 100%;
-    height: 100%;
-}
+
 .datos-skills{
     display: flex;
     width: 100%;
@@ -375,7 +316,7 @@ ul{
     justify-content: center;
     width: 6rem;
     height: 6rem;
-    left: -10%;
+    left: -8%;
     border-radius: .4rem;
     box-shadow: 0px 0px 19px -7px rgba(227,45,20,1);
     background-color: rgba(169, 8, 8, 1);
@@ -385,12 +326,22 @@ ul{
     height: 5rem;
 }
 .link-otros > div{
-    width: 80%;
+    width: 90%;
     height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 1rem;
+}
+.link-otros > div > figure{
+    width: 1.8rem;
+    height: 1.8rem;
+    opacity: .6;
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+.link-otros > div > figure > img{
+    width: 1.8rem;
+    height: 1.8rem;
 }
 h5{
     font-size: 1.7rem;

@@ -1,0 +1,108 @@
+:root{
+    --negro:#242424;
+
+    
+    --segundo-color:#FE8B48;
+    --tercer-color: white;
+    --color-section:#333;
+    --font-color:#bbb9b9;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: var(--tercer-color);
+}
+html{
+    font-size: 52.6%;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    background-color:var(--negro) ;
+}
+.contenedor-datos-cursos{
+    margin-top: 2rem;
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-size: 2.3rem;
+    color: var(--segundo-color);
+}
+.datos-proyectos{
+    width: 100%;
+    height: auto;
+    margin:2rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.proyecto{
+    background-color: var(--color-section);
+    width: 100%;
+    height: auto;
+    border-radius: .5rem;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+.proyecto-contenedor__img{
+    width: 100%;
+    height: 18rem;
+}
+.proyecto-img{
+    width: 100%;
+    height: 100%;
+}
+.proyecto-informacion{
+    margin-top: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    height: auto;
+}
+h4{
+    color: white;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+.proyecto-links{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 4rem;
+}
+.link-proyecto{
+    text-align: center;
+    width: auto;
+    padding: 1rem;
+    background-color: var(--segundo-color);
+    color: var(--tercer-color);
+    border-radius: .5rem;
+}
+.link-proyecto:focus{
+    opacity: .7;
+}
+.proyecto-texto{
+    font-size: 1.4rem;
+}
+ul{
+    width: 100%;
+    height: auto;
+    padding-left:3rem;
+    font-size: 1.4rem;
+}
+a{
+    text-decoration: none;
+    color: var(--segundo-color);
+}

@@ -15,15 +15,6 @@ main{
 .leer-blog{
     gap: 4rem;
 }
-.datos-proyectos{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 4rem;
-}
-.proyecto{
-    width: 30%;
-}
 .contenedor-datos__profecionales > div{
     width: 78vw;
     background-color: var(--color-section);
@@ -46,11 +37,22 @@ main{
 .datos-skills{
     width: 60%;
 }
-.datos-cursos{
-    flex-direction: row;
-    justify-content: space-between;
-    row-gap: 3rem;
+
+.link-otros{
+    width: 96%;
+    height: 9rem;
 }
-.diploma{
-    width: 30%;
+.link-otros > figure{
+   
+    width: 7rem;
+    height: 7rem;
+    left: -7%;
+   
 }
+.link-otros > figure > img{
+    width: 6rem;
+    height: 6rem;
+}
+.link-otros > div > figure{
+    margin-right: 2rem;
+} 

@@ -1,0 +1,59 @@
+:root{
+    --negro:#242424;
+
+    
+    --segundo-color:#FE8B48;
+    --tercer-color: white;
+    --color-section:#333;
+    --font-color:#bbb9b9;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: var(--tercer-color);
+}
+html{
+    font-size: 52.6%;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+    background-color:var(--negro) ;
+   }
+.contenedor-datos-cursos{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-size: 2.3rem;
+    color: var(--segundo-color);
+}
+.datos-cursos{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+    margin: 4rem 0 4rem 0;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.diploma{
+    width: 100%;
+    height: auto;
+}
+.diploma > img{
+    width: 100%;
+    height: auto;
+}
