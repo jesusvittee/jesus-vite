@@ -1,8 +1,6 @@
-.estatico__contenedor{
-    width: 80%;
-}
 h1{
-    font-weight: 500;
+    font-size: 2.2rem;
+    font-weight: 700;
 }
 .link-dato{
     text-decoration: none;
@@ -15,11 +13,13 @@ h1{
 }
 .header-conteiner-porcentaje{
     justify-content: center;
-    width: 80%;
+    width: 85%;
     height: auto;
+    padding-right: 5vw;
+    padding-left: 5vw;
 }
 title{
-    font-size: 2.8rem;
+    font-size: 5.5rem;
 }
 .header-nav-lista{
     width: 130px;
@@ -30,10 +30,12 @@ title{
 .header-nav__item > a {
         font-size: 1.4rem;
 }
+.conteiner-bio p{
+    font-size: 1.8rem;;
+}
 
 .conteiner-bio{
-    justify-content: center;
-    width: 80%;
+    width: 90%;
     height: auto;
 }
 .conteiner-bio > p {

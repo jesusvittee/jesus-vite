@@ -1,21 +1,11 @@
-.datos-estatico__contenedor{
-    width: 50%;
-}
-h1{
-    font-size: 2.4rem;
-}
+
 .link-dato{
-    text-decoration: none;
-    color: var(--tercer-color);
-    font-size: 1.8;
-    font-weight: 600;
+    font-size: 1.4rem;
 }
 .dato{
     margin-left: 30rem;
 }
-.header-conteiner-porcentaje{
-    width: 50%;
-}
+
 .header-nav-lista{
     width: 150px;
     height: 6.5rem;
@@ -25,9 +15,6 @@ h1{
 }
 .header-nav__item > a {
    font-size: 2rem;
-}
-.conteiner-bio{
-    width: 50%;
 }
 
 .footer-class{  

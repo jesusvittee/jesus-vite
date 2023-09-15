@@ -1,29 +1,12 @@
-.datos-estatico__contenedor{
-    width: 70%;
-}
-h1{
-    font-size: 2.2rem;
-}
-.link-dato{
-    text-decoration: none;
-    color: var(--tercer-color);
-    font-size: 1.8;
-    font-weight: 600;
-}
+
 .dato{
     margin-left: 30rem;
 }
 .header-conteiner-porcentaje{
-    width: 70%;
+    padding: 60px 11vw 50px;
 }
 .header-nav-medium{
-    width: 70%;
+    width: 80%;
 }
-.conteiner-bio{
-    width: 70%;
-}
-title{
-   margin-bottom: 3rem;
-}
- 
+
 

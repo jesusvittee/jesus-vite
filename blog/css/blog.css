@@ -177,10 +177,10 @@ div > p {
     flex-direction: column;
     align-items: center;
     position: fixed;
-    bottom: 3rem;
-    right: 3rem;
-    width: 6rem;
-    height: 6rem;
+    bottom: 1rem;
+    right: 1rem;
+    width:4rem;
+    height:4rem;
     border-radius: 50%;
     z-index: 1;
 }
@@ -195,8 +195,8 @@ div > p {
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    width: 6rem;
-    height: 6rem;
+    width: 4rem;
+    height: 4rem;
     background-color: var(--segundo-color);
     box-shadow: 0px 0px 18px 0px rgba(254,139,72,1);
     display: flex;
@@ -205,14 +205,14 @@ div > p {
 .user-boton{
     display: flex;
     align-items: center;
-    width: 5rem;
-    height: 5rem;
+    width: 3.5rem;
+    height: 3.5rem;
     padding-bottom: 0rem
 }
 .casa{
     border-radius: 50%;
-    width: 5rem;
-    height: 5rem;
+    width: 3.5rem;
+    height: 3.5rem;
 }
 /* -------------------------------------------- */
 .contenido-footer{
