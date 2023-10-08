@@ -3,9 +3,7 @@ h1{
     font-weight: 700;
 }
 .link-dato{
-    text-decoration: none;
-    color: var(--tercer-color);
-    font-size: 1.6;
+    font-size: 1.6rem;
     font-weight: 600;
 }
 .dato{
@@ -13,13 +11,13 @@ h1{
 }
 .header-conteiner-porcentaje{
     justify-content: center;
-    width: 85%;
     height: auto;
     padding-right: 5vw;
     padding-left: 5vw;
 }
 title{
-    font-size: 5.5rem;
+    font-size: 3rem;
+    text-align: right;
 }
 .header-nav-lista{
     width: 130px;
@@ -35,7 +33,6 @@ title{
 }
 
 .conteiner-bio{
-    width: 90%;
     height: auto;
 }
 .conteiner-bio > p {

@@ -2,7 +2,7 @@
     --negro:#242424;
 
     
-    --segundo-color:#FE8B48;
+    --segundo-color:#e4cb86;
     --tercer-color: white;
     --color-section:#333;
     --font-color:#bbb9b9;
@@ -16,7 +16,7 @@
 }
 html{
     font-size: 52.6%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Cinzel', serif;
 }
 body{
     display: flex;
@@ -132,12 +132,13 @@ h1{
     font-weight: 600;
 }
 .text-title{
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     color: var( --tercer-color);
     text-align: center;
-    margin: .4rem 0 .4rem 0git ;
+    margin: .4rem 0 .4rem 0;
 }
 h2{
+    display: none;
     font-weight: 500;
 }
 a{
@@ -205,7 +206,7 @@ a{
 }
 /* botton flotante absoluto */
 .botton-flotante{
-    display: flex;
+    display: none;
     flex-direction: row;
     align-items: center;
     width: auto;
@@ -216,7 +217,6 @@ a{
 }
 .botton-flotante-link{
     display: flex;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 2rem;
     color: var(--tercer-color);
@@ -315,8 +315,9 @@ h2{
     height: 6rem;
     left: -8%;
     border-radius: .4rem;
-    box-shadow: 0px 0px 19px -7px rgba(227,45,20,1);
-    background-color: rgba(169, 8, 8, 1);
+    box-shadow: 0px 0px 19px -7px rgba(228, 203, 134, 1);
+    background-color: rgba(228, 203, 134, 1);
+    
 }
 .link-otros > figure > img{
     width: 5rem;
@@ -342,6 +343,12 @@ h2{
 }
 h5{
     font-size: 1.7rem;
+}
+h5:hover{
+    color: var(--segundo-color);
+}
+.last{
+    margin-top: 2rem;
 }
 .inactive{
     display: none;

@@ -1,4 +1,12 @@
-
+.datos-estatico__contenedor{
+    background-color: var(--negro);
+}
+.header-conteiner-porcentaje{
+    background-color: var(--color-section);
+}
+.conteiner-bio{
+    background-color: var(--color-section);
+}
 .link-dato{
     font-size: 1.4rem;
 }

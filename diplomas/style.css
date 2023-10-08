@@ -1,8 +1,7 @@
 :root{
     --negro:#242424;
 
-    
-    --segundo-color:#FE8B48;
+    --segundo-color:#e4cb86;
     --tercer-color: white;
     --color-section:#333;
     --font-color:#bbb9b9;
@@ -16,7 +15,8 @@
 }
 html{
     font-size: 52.6%;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Cinzel', serif;
 }
 body{
     display: flex;

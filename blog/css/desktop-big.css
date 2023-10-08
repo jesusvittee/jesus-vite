@@ -2,7 +2,6 @@
     width: 85%;
 }
 .header-conteiner{
-    display: flex;
     box-sizing: border-box;
 }
 
@@ -43,4 +42,21 @@ h1{
 }
 .footer a{
     display: none;
+}
+.botton-flotante{
+    width:5rem;
+    height:5rem;
+}
+.botton-flotante-link{
+    width:5rem;
+    height:5rem;
+}
+.user-boton{
+    width: 4rem;
+    height: 4rem;
+ 
+}
+.casa{
+    width: 4rem;
+    height: 4rem;
 }

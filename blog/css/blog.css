@@ -2,7 +2,7 @@
     --negro:#242424;
 
     
-    --segundo-color:#FE8B48;
+    --segundo-color:#e4cb86;
     --tercer-color: white;
     --color-section:#333;
 
@@ -27,7 +27,7 @@ body{
 }
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Cinzel+Decorative:wght@700&family=Corben&display=swap');
 .header-conteiner{
-    display: flex;
+    display: none;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -104,7 +104,7 @@ h3{
     color: var(--segundo-color);
     font-size: 1.9rem;
     margin-bottom: .7rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Cinzel', serif;
     font-weight: 500;
 }
 .contenido-resumen{
@@ -192,14 +192,12 @@ div > p {
     color: var(--tercer-color);
     text-decoration: none;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     border-radius: 50%;
     width: 4rem;
     height: 4rem;
     background-color: var(--segundo-color);
     box-shadow: 0px 0px 18px 0px rgba(254,139,72,1);
-    display: flex;
     align-items: center;
 }
 .user-boton{
