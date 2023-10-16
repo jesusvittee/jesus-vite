@@ -37,7 +37,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-h2{
+h1{
     font-size: 4rem;
     color: var(--segundo-color);
     font-family: 'Cinzel', serif;
