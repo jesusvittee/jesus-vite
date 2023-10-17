@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://jesusvite.com/sistemap.xml
+Sitemap: https://jesusvite.com/sitemap.xml

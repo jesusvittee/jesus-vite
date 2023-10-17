@@ -1,7 +1,7 @@
-h1{
+/* h1{
     font-size: 2.2rem;
     font-weight: 700;
-}
+} */
 .link-dato{
     font-size: 1.6rem;
     font-weight: 600;
@@ -15,7 +15,7 @@ h1{
     padding-right: 5vw;
     padding-left: 5vw;
 }
-title{
+H1{
     font-size: 3rem;
     text-align: right;
 }

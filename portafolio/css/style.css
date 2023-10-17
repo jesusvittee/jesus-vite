@@ -114,7 +114,7 @@ align-items: center;
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 2rem;
+    margin-bottom: .5rem;
 }
 .ubication{
     width: 2.5rem;
@@ -127,7 +127,7 @@ align-items: center;
 }
 h1{
     font-size: 2.7rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1rem;
     color: var( --tercer-color);
     font-weight: 600;
 }
