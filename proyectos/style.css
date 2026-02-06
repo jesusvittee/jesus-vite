@@ -151,4 +151,32 @@ a{
     width: 3.5rem;
     height: 3.5rem;
 }
-/* -------- botton */
+/* ===== TARJETA BASE MEJORADA ===== */
+.proyecto{
+    position: relative;
+    overflow: visible;
+    transition: 
+        transform .35s ease,
+        box-shadow .35s ease;
+    
+    /* sombra base muy sutil (se ve pro aun sin hover) */
+    box-shadow: 0 8px 18px rgba(0,0,0,.35);
+}
+
+/* Estado base con transición suave */
+.proyecto{
+    position: relative;
+    overflow: visible;
+    transition: box-shadow .35s ease, border-color .35s ease;
+    box-shadow: 0 8px 18px rgba(0,0,0,.35); /* sombra base sutil */
+    border: 1px solid transparent;
+}
+
+/* Hover: SOLO brillo leve, sin moverse */
+.proyecto:hover{
+    box-shadow:
+        0 0 0 1px rgba(255,255,255,0.20),
+        0 0 18px 6px rgba(255,255,255,0.18),
+        0 10px 22px rgba(0,0,0,.45);
+    border-color: rgba(255,255,255,0.25);
+}

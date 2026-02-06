@@ -357,3 +357,25 @@ h4{
 .inactive{
     display: none;
 }
+.link-otros{
+    position: relative;
+    transition: 
+        transform .35s ease,
+        box-shadow .35s ease,
+        border-radius .35s ease;
+    border-radius: .6rem;
+}
+
+/* EFECTO HOVER */
+.link-otros:hover{
+    transform: scale(1.05);
+    box-shadow:
+        0 0 0 2px rgba(255,255,255,0.25),
+        0 0 25px 8px rgba(255,255,255,0.25),
+        0 0 60px 15px rgba(255,255,255,0.15);
+}
+
+/* para que el glow se vea suave y no corte */
+.contenedor-datos-cursos{
+    overflow: visible;
+}
