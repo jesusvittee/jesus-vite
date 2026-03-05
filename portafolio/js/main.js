@@ -53,3 +53,18 @@ function desktopMenu(){
 
     if(sideDesk) sideDesk.classList.toggle('inactive');
 }
+
+// Scroll suave para los links del header
+document.querySelectorAll('.nav-header a').forEach(link => {
+    link.addEventListener('click', function(e){
+        e.preventDefault();
+        const targetId = this.getAttribute('href').slice(1);
+        const targetSection = document.getElementById(targetId);
+        if(targetSection){
+            window.scrollTo({
+                top: targetSection.offsetTop - 80, // ajusta para header fijo
+                behavior: 'smooth'
+            });
+        }
+    });
+});

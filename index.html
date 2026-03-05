@@ -1,256 +1,142 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-
     <meta charset="UTF-8">
     <meta name="description" content="Pagina oficial de Jesus Vite @jesusvittee">
     <meta name="robots" content="index, follow">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Jesus Vite @jesusvittee</title>
 
     <link rel="icon" href="./portafolio/icon/foto mini.ico">
-
     <!-- CSS -->
     <link rel="stylesheet" href="./portafolio/css/style.css">
     <link rel="stylesheet" href="./portafolio/css/desktop.css" media="screen and (min-width:600px)">
-
     <!-- FUENTES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
 
-<header>
-    <nav></nav>
-    <button class="theme-toggle" id="theme-toggle">
-    ☀
-    </button>
-</header>
+    <!-- Header flotante -->
+    <header class="header-portafolio">
+        <nav class="nav-header">
+            <ul>
+                <li><a href="#tecnologias">TECNOLOGÍAS</a></li>
+                <li><a href="#experiencia">EXPERIENCIA</a></li>
+                <li><a href="#proyectos">PROYECTOS</a></li>
+                <li><a href="#formacion">FORMACIÓN</a></li>
+                <li><a href="#extra">EXTRA</a></li>
+                <li><a href="#contacto">CONTACTO</a></li>
+            </ul>
+        </nav>
+        <button class="theme-toggle" id="theme-toggle">☀</button>
+    </header>
 
-<main class="main">
+    <main class="main">
 
-    <!-- PERFIL -->
-    <section class="contenedor-datos__profecionales">
-
-        <div>
-
-            <section class="contenedor-img">
-
-                <div class="contenedor-figure__img">
-
-                    <figure class="contenedor-img__perfil">
-                        <img
-                            src="./portafolio/icon/foto-perfil.jpg"
-                            alt="Foto de perfil de Jesus Vite"
-                            class="img-foto-perfil">
-                    </figure>
-
-                </div>
-
-            </section>
-
-
-            <div class="contenedor-datos__texto">
-
-                <article class="datos-importante">
-
-                    <h1>Jesus Vite</h1>
-
-                    <div class="datos-ubication">
-
-                        <figure class="ubication">
-                            <img
-                                src="./portafolio/icon/ubication.png"
-                                alt="Icono ubicación"
-                                class="img-ubicacion">
+        <!-- PERFIL -->
+        <section class="contenedor-datos__profecionales">
+            <div>
+                <section class="contenedor-img">
+                    <div class="contenedor-figure__img">
+                        <figure class="contenedor-img__perfil">
+                            <img src="./portafolio/icon/foto-perfil.jpg" alt="Foto de perfil de Jesus Vite" class="img-foto-perfil">
                         </figure>
-
-                        <p class="text-title nombre-ubicacion">
-                            Hidalgo, Mexico
-                        </p>
-
                     </div>
+                </section>
 
-                    <div class="informacion-perfil">
-                        <h4 class="text-title">
-                            FRONTEND DEVELOPER.
-                        </h4>
-                    </div>
+                <div class="contenedor-datos__texto">
+                    <article class="datos-importante">
+                        <h1>Jesus Vite</h1>
 
-                    <a href="./blog/jesus-nicolas-vite/" class="text-title nombre-ubicacion">
-                        Autobiografia
-                    </a>
-
-                    <div class="leer-blog inactive">
-
-                        <a href="./blog/" class="leer-blog__contenedor">
-                            <p class="text-title">BLOG</p>
-                        </a>
-
-                    </div>
-
-                    <!-- INSTAGRAM -->
-
-                    <div>
-
-                        <a href="https://www.instagram.com/jesusvittee/">
-
-                            <figure class="instagram">
-                                <img
-                                    src="./portafolio/icon/instagram.png"
-                                    alt="Instagram de Jesus Vite"
-                                    class="instagram-img">
+                        <div class="datos-ubication">
+                            <figure class="ubication">
+                                <img src="./portafolio/icon/ubicacion.png" alt="Icono ubicación" class="img-ubicacion img-red-social">
                             </figure>
+                            <p class="text-title nombre-ubicacion">Hidalgo, Mexico</p>
+                        </div>
 
-                        </a>
+                        <div class="informacion-perfil">
+                            <h4 class="text-title">FRONTEND DEVELOPER.</h4>
+                        </div>
 
-                    </div>
+                        <a href="./blog/jesus-nicolas-vite/" class="text-title nombre-ubicacion">Autobiografía</a>
 
-                </article>
+                        <!-- contactos -->
+                        <div class="img-icono">
+                            <a href="https://github.com/jesusvittee">
+                                <figure class="red-social github">
+                                    <img src="./portafolio/icon/github.png" alt="GitHub de Jesus Vite" class="img-red-social">
+                                </figure>
+                            </a>
+                            <a href="https://www.linkedin.com/in/nicolasvitejesus/">
+                                <figure  class="red-social github">
+                                    <img src="./portafolio/icon/linkedin.png" alt="LinkedIn de Jesus Vite" class="img-red-social">
+                                </figure>
+                            </a>
+                        </div>
 
+                    </article>
+                </div>
             </div>
+        </section>
 
-        </div>
+        <!-- NUEVAS SECCIONES -->
 
-    </section>
+        <!-- TECNOLOGÍAS -->
+        <section class="contenedor-datos-cursos" id="tecnologias">
+            <h2>Tecnologías</h2>
+            <p>Aquí se mostrarán las tecnologías que manejo: HTML, CSS, JavaScript, React, etc.</p>
+        </section>
 
-
-    <!-- PORTAFOLIO -->
-    <section class="portafolio-cursos">
-
+        <!-- EXPERIENCIA -->
+        <section class="contenedor-datos-cursos" id="experiencia">
+            <h2>Experiencia</h2>
+            <p>Borrador: sección de experiencia profesional y proyectos previos.</p>
+        </section>
 
         <!-- PROYECTOS -->
+        <section class="contenedor-datos-cursos" id="proyectos">
+            <h2>Proyectos</h2>
+            <p>Sección para mostrar tus proyectos destacados con imágenes y descripciones.</p>
+        </section>
 
-        <div class="contenedor-datos-cursos">
+        <!-- FORMACIÓN -->
+        <section class="contenedor-datos-cursos" id="formacion">
+            <h2>Formación</h2>
+            <p>Sección para diplomas, cursos, certificaciones y educación.</p>
+        </section>
 
-            <a href="./proyectos/" class="link-otros">
+        <!-- EXTRA -->
+        <section class="contenedor-datos-cursos" id="extra">
+            <h2>Extra</h2>
+            <p>Sección para contenido adicional: imágenes, logros, hobbies, etc.</p>
+        </section>
 
-                <figure>
-                    <img src="./portafolio/icon/proyecto.png" alt="Icono proyectos">
-                </figure>
+        <!-- CONTACTO -->
+        <section class="contenedor-datos-cursos" id="contacto">
+            <h2>Contacto</h2>
+                 <!-- contactos -->
+                        <div class="img-icono">
+                            <a href="https://github.com/jesusvittee">
+                                <figure class="red-social github">
+                                    <img src="./portafolio/icon/github.png" alt="GitHub de Jesus Vite" class="img-red-social">
+                                </figure>
+                            </a>
+                            <a href="https://www.linkedin.com/in/nicolasvitejesus/">
+                                <figure  class="red-social github">
+                                    <img src="./portafolio/icon/linkedin.png" alt="LinkedIn de Jesus Vite" class="img-red-social">
+                                </figure>
+                            </a>
+                        </div>
 
-                <div>
+        </section>
 
-                    <h5>PROYECTOS</h5>
+    </main>
 
-                    <figure>
-                        <img src="./portafolio/icon/flecha.png" alt="Ir a proyectos">
-                    </figure>
-
-                </div>
-
-            </a>
-
-        </div>
-
-
-        <!-- GITHUB -->
-
-        <div class="contenedor-datos-cursos">
-
-            <a href="https://github.com/jesusvittee?tab=repositories" class="link-otros">
-
-                <figure>
-                    <img src="./portafolio/icon/github.png" alt="Repositorio GitHub">
-                </figure>
-
-                <div>
-
-                    <h5>REPOSITORIO EN GITHUB</h5>
-
-                    <figure>
-                        <img src="./portafolio/icon/flecha.png" alt="Ir a GitHub">
-                    </figure>
-
-                </div>
-
-            </a>
-
-        </div>
-
-
-        <!-- BLOG -->
-
-        <div class="contenedor-datos-cursos">
-
-            <a href="./blog/" class="link-otros">
-
-                <figure>
-                    <img src="./portafolio/icon/blog.png" alt="Icono blog">
-                </figure>
-
-                <div>
-
-                    <h5>BLOG</h5>
-
-                    <figure>
-                        <img src="./portafolio/icon/flecha.png" alt="Ir al blog">
-                    </figure>
-
-                </div>
-
-            </a>
-
-        </div>
-
-
-        <!-- DIPLOMAS -->
-
-        <div class="contenedor-datos-cursos">
-
-            <a href="./diplomas/" class="link-otros">
-
-                <figure>
-                    <img src="./portafolio/icon/diploma.png" alt="Icono diplomas">
-                </figure>
-
-                <div>
-
-                    <h5>DIPLOMAS</h5>
-
-                    <figure>
-                        <img src="./portafolio/icon/flecha.png" alt="Ver diplomas">
-                    </figure>
-
-                </div>
-
-            </a>
-
-        </div>
-
-
-        <!-- PLATZI -->
-
-        <div class="contenedor-datos-cursos">
-
-            <a href="https://platzi.com/p/jesusvittee/" class="link-otros">
-
-                <figure>
-                    <img src="./portafolio/icon/platzi-1324440213777394405.svg" alt="Perfil Platzi">
-                </figure>
-
-                <div>
-
-                    <h5>PLATZI ESCUELA ONLINE</h5>
-
-                    <figure>
-                        <img src="./portafolio/icon/flecha.png" alt="Ir a Platzi">
-                    </figure>
-
-                </div>
-
-            </a>
-
-        </div>
-
-    </section>
-
-</main>
     <script src="./portafolio/js/main.js"></script>
 </body>
 </html>

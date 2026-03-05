@@ -1,18 +1,24 @@
 :root{
-    --negro:#242424;
+    --negro:#764a4a;
     --segundo-color:#e4cb86;
     --tercer-color:white;
     --color-section:#333;
     --font-color:#bbb9b9;
 }
 .light-theme{
-    --negro:#ffffff;
+    --negro:#f2f2f2;
     --segundo-color:#e4cb86;
     --tercer-color:#242424;
-    --color-section:#f2f2f2;
+    --color-section:#b3b3b3;
     --font-color:#555;
 }
-
+/* Tema claro: icono se vuelve negro */
+.light-theme .img-red-social {
+    filter: brightness(0) saturate(100%);
+}
+.light-theme .img-chage-color  {
+    filter: brightness(0) saturate(100%);
+}
 /* RESET */
 *{
     box-sizing:border-box;
@@ -39,19 +45,11 @@ body{
 /* HEADER */
 
 header{
-    display:flex;
+   
     width:100%;
     align-items:center;
 }
 
-nav{
-    display:flex;
-    flex-direction:column;
-    width:100%;
-    min-height:12.5rem;
-    align-items:flex-end;
-    background-color:var(--negro);
-}
 
 /* MAIN */
 
@@ -59,6 +57,7 @@ main{
     display:flex;
     flex-direction:column;
     width:100%;
+    align-items: center;
 }
 
 /* PERFIL */
@@ -71,13 +70,17 @@ main{
     margin-bottom:4rem;
 }
 
-.contenedor-datos__profecionales > div{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    width:80vw;
-    padding-bottom:3rem;
-    background-color:var(--color-section);
+.contenedor-datos__profecionales > div {
+    display: flex;
+    background-color: rgba(51, 51, 51, 0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 1rem;
+    padding: 3rem 2rem;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 78vw;
 }
 
 /* IMAGEN PERFIL */
@@ -242,14 +245,24 @@ a{
     width:4rem;
 }
 
-.instagram{
-    margin-top:2rem;
+/* Icono GitHub pequeño */
+.red-social.github {
+    width: 4rem;       /* antes 4rem */
+    height: 4rem;
+    margin-top: 1rem;    /* un poco más compacto */
 }
 
-.instagram-img{
-    width:4rem;
-    height:4rem;
+.img-red-social {
+    width: 4rem;       /* ajusta para que la imagen quepa dentro del figure */
+    height: 4rem;
+    filter: brightness(1);
+    transition: filter 0.3s ease;
 }
+.img-chage-color{
+    filter: brightness(1);
+    transition: filter 0.3s ease;
+}
+
 
 /* PORTAFOLIO */
 
@@ -341,8 +354,34 @@ a{
         0 0 60px 15px rgba(255,255,255,0.15);
 }
 
-.contenedor-datos-cursos{
-    overflow:visible;
+.contenedor-datos-cursos {
+    background-color: rgba(51, 51, 51, 0.4);
+    backdrop-filter: blur(10px);
+    border-radius: 1rem;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.25);
+    padding: 2rem;
+    margin: 2rem 0;
+    width: 80vw;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedor-datos-cursos h2 {
+    display: block;
+    font-size: 2rem;
+    color: var(--segundo-color);
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.05rem;
+    text-align: center;
+}
+
+.contenedor-datos-cursos p {
+    font-size: 1.4rem;
+    color: var(--tercer-color);
+    text-align: center;
+    line-height: 1.6rem;
+    margin-bottom: 1rem;
 }
 
 /* UTILIDADES */
@@ -357,17 +396,16 @@ a{
 .theme-toggle{
     position: fixed;
     top: 2rem;
-    right: 2rem;
+    right: 1rem;
 
-    width: 4rem;
-    height: 4rem;
+    width: 3rem;
+    height: 3rem;
 
     border-radius: 50%;
     border: none;
 
     font-size: 2rem;
 
-    background-color: var(--segundo-color);
     color: black;
 
     cursor: pointer;
@@ -379,4 +417,60 @@ a{
 
 .theme-toggle:hover{
     transform: scale(1.1);
+}
+
+/* ---------------------- */
+/* Header bajo y transparente */
+.header-portafolio {
+    position: fixed;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 35rem;
+    height: 3rem; /* altura muy baja */
+    background-color: rgba(128, 128, 128, 0.6); /* gris semi-transparente */
+    backdrop-filter: blur(8px);
+    border-radius: 1rem;
+    z-index: 1000;
+    display: flex;
+    align-items: center;   /* centra los links verticalmente */
+    justify-content: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+    padding: 0 1rem;       /* solo un poco de padding horizontal */
+}
+
+/* Lista de links centrados y separados */
+.nav-header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between; /* separación horizontal */
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    gap: 0.8rem
+}
+
+.nav-header ul li a {
+    text-decoration: none;
+    color: var(--tercer-color); /* blanco por defecto */
+    font-weight: 600;
+    font-size: 1.3rem;          /* un poco más pequeño */
+    letter-spacing: 0.15rem;
+    transition: color 0.3s ease;
+}
+
+.nav-header ul li a:hover {
+    color: var(--segundo-color); /* dorado al pasar mouse */
+    cursor: pointer;
+}
+
+.img-icono{
+    display:flex;
+    align-items: center;
+}
+.img-ubicacion{
+    width: 2rem;
+    height: 2rem;
 }
