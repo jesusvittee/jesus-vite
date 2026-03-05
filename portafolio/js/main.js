@@ -1,33 +1,55 @@
 const menu = document.querySelector('.menu');
 const deskMenu = document.querySelector('.DeskMen');
 
-const mobileMenu =document.querySelector('.sidebar-menu');
-const sideDesk = document.querySelector ('.desktop-menu');
+const mobileMenu = document.querySelector('.sidebar-menu');
+const sideDesk = document.querySelector('.desktop-menu');
 
 const main = document.querySelector('.main');
 
 console.log('hola');
 
-menu.addEventListener('click', menuMobile);
-deskMenu.addEventListener('click', desktopMenu);
+// Solo agrega listener si el elemento existe
+if(menu){
+    menu.addEventListener('click', menuMobile);
+}
+
+if(deskMenu){
+    deskMenu.addEventListener('click', desktopMenu);
+}
+
+// Theme toggle seguro
+const themeButton = document.getElementById("theme-toggle");
+if(themeButton){
+    themeButton.addEventListener("click", () => {
+        document.body.classList.toggle("light-theme");
+    });
+}
 
 function menuMobile(){
-    const isMainClose = main.classList.contains('inactive')
-    const isDeskMenClose = sideDesk.classList.contains('inactive')
+
+    const isMainClose = main.classList.contains('inactive');
+    const isDeskMenClose = sideDesk.classList.contains('inactive');
+
     if(!isDeskMenClose){
-        sideDesk.classList.add('inactive')
+        sideDesk.classList.add('inactive');
     }
+
     if(!isMainClose){
-       main.classList.add('inactive')
+        main.classList.add('inactive');
     } else {
-        main.classList.remove('inactive')
+        main.classList.remove('inactive');
     }
-    mobileMenu.classList.toggle('inactive');
+
+    if(mobileMenu) mobileMenu.classList.toggle('inactive');
 }
-function desktopMenu (){
-    const isMainClose = main.classList.contains('inactive')
+
+function desktopMenu(){
+
+    const isMainClose = main.classList.contains('inactive');
+
     if(isMainClose){
-        main.classList.remove('inactive')
+        main.classList.remove('inactive');
     }
-    sideDesk.classList.toggle('inactive');
+
+    if(sideDesk) sideDesk.classList.toggle('inactive');
 }

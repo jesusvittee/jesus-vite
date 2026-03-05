@@ -1,59 +1,66 @@
 body{
-    position: relative;
+    position:relative;
 }
 
 nav{
-    height: 70vh;
+    height:70vh;
 }
 
 main{
-    position: absolute;
-    top: 20rem;
+    position:absolute;
+    top:20rem;
 }
+
 .text-title{
-    font-size: 1.8rem;
+    font-size:1.8rem;
 }
+
 .leer-blog{
-    gap: 4rem;
+    gap:4rem;
 }
+
 .contenedor-datos__profecionales > div{
-    width: 78vw;
-    background-color: var(--color-section);
-    padding:6rem 0 6rem 0;
+    width:78vw;
+    padding:6rem 0;
+    background-color:var(--color-section);
 }
+
 .contenedor-img{
-    margin-bottom: 3rem;
+    margin-bottom:3rem;
 }
+
 .contenedor-img__perfil{
-    width: 25rem;
-    height: 25rem;
-    margin-bottom:0rem;
+    width:25rem;
+    height:25rem;
     margin-top:2rem;
 }
+
 .img-foto-perfil{
-    border-radius: 50%;
-    width: 25rem;
-    height: 25rem;
+    width:25rem;
+    height:25rem;
+    border-radius:50%;
 }
+
 .datos-skills{
-    width: 60%;
+    width:60%;
 }
 
 .link-otros{
-    width: 96%;
-    height: 9rem;
+    width:96%;
+    height:9rem;
 }
+
 .link-otros > figure{
-   
-    width: 7rem;
-    height: 7rem;
-    left: -7%;
-   
+    width:7rem;
+    height:7rem;
+    left:-7%;
 }
+
 .link-otros > figure > img{
-    width: 6rem;
-    height: 6rem;
+    width:6rem;
+    height:6rem;
 }
+
 .link-otros > div > figure{
-    margin-right: 2rem;
-} 
+    margin-right:2rem;
+}
