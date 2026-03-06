@@ -346,6 +346,53 @@ a{
     width:1.8rem;
     height:1.8rem;
 }
+/*EDUCACION*/
+.item-educacion{
+    margin-top:2rem;
+    text-align:left;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+}
+
+
+h3{
+    font-size:1.8rem;
+    color:var(--tercer-color);
+}
+
+.item-educacion .carrera{
+    font-size:1.6rem;
+    color:var(--font-color);
+}
+
+.item-educacion .periodo{
+    font-size:1.4rem;
+    color:rgba(255,255,255,0.5); /* más tenue */
+}
+/* --- CURSOS--- */
+.datos-cursos{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    position: relative;
+    margin: 4rem 0;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.diploma{
+    width: 40%
+}
+
+.diploma img{
+    width: 100%;
+    height: auto;
+    border-radius: 0.6rem;
+}
 
 /* HOVER */
 

@@ -64,3 +64,15 @@ main{
 .link-otros > div > figure{
     margin-right:2rem;
 }
+-- DIPLOMAS
+.datos-cursos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    row-gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.diploma{
+    width: 30%;
+}
