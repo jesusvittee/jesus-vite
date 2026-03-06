@@ -346,6 +346,63 @@ a{
     width:1.8rem;
     height:1.8rem;
 }
+/*PROYECTOS*/
+
+.proyectos-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.datos-proyectos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+.proyecto{
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 10px;
+    height: auto;
+}
+.proyecto-informacion{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.proyecto img{
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.proyecto h3{
+    margin: 10px 0 5px 0;
+}
+
+.proyecto p{
+    font-size: 14px;
+    color: #555;
+}
+.proyecto-links{
+    display: flex;
+    justify-content: space-evenly;
+}
+.link-proyecto{
+    text-align: center;
+    width: auto;
+    background-color: var(--segundo-color);
+    color: var(--tercer-color);
+    border-radius: .2rem;
+    padding: .2rem;
+}
+.link-proyecto:focus{
+    opacity: .7;
+}
 /*EDUCACION*/
 .item-educacion{
     margin-top:2rem;
@@ -354,7 +411,6 @@ a{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 90%;
 }
 
 
@@ -429,7 +485,6 @@ h3{
 .contenedor-datos-cursos p {
     font-size: 1.4rem;
     color: var(--tercer-color);
-    text-align: center;
     line-height: 1.6rem;
     margin-bottom: 1rem;
 }

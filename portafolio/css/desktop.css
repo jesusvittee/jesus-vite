@@ -23,6 +23,7 @@ main{
     padding:6rem 0;
 }
 .contenedor-datos-cursos{
+    display: flex;
     width:60vw;
 }
 .contenedor-img{
@@ -63,6 +64,17 @@ main{
 
 .link-otros > div > figure{
     margin-right:2rem;
+}
+-- PROYECTOS
+.proyecto-links{
+    display: flex;
+    justify-content: space-evenly;
+}
+.proyecto{
+    width: 30%;
+}
+.datos-proyectos{
+        justify-content: space-between;
 }
 -- DIPLOMAS
 .datos-cursos{
