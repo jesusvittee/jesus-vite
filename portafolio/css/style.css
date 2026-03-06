@@ -41,7 +41,10 @@ body{
     height:auto;
     background-color:var(--negro);
 }
-
+main{
+    position:absolute;
+    top:5rem;
+}
 /* HEADER */
 
 header{
@@ -91,7 +94,7 @@ main{
     justify-content:flex-end;
     align-items:center;
     width:100%;
-    height:10rem;
+
     position:relative;
 }
 
