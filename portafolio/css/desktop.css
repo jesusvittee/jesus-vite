@@ -19,10 +19,12 @@ main{
     max-width: 70rem;
 }
 .contenedor-datos__profecionales > div{
-    width:78vw;
+    width:60vw;
     padding:6rem 0;
 }
-
+.contenedor-datos-cursos{
+    width:60vw;
+}
 .contenedor-img{
     margin-bottom:3rem;
 }
