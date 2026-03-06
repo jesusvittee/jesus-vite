@@ -3,11 +3,6 @@ body{
 }
 
 
-main{
-    position:absolute;
-    top:7rem;
-}
-
 .text-title{
     font-size:1.8rem;
 }
@@ -20,20 +15,15 @@ main{
 }
 .contenedor-datos__profecionales > div{
     width:60vw;
-    padding:6rem 0;
 }
 .contenedor-datos-cursos{
     display: flex;
     width:60vw;
 }
-.contenedor-img{
-    margin-bottom:3rem;
-}
 
 .contenedor-img__perfil{
     width:25rem;
     height:25rem;
-    margin-top:2rem;
 }
 
 .img-foto-perfil{
