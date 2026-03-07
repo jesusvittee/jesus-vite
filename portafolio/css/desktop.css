@@ -15,10 +15,10 @@ body{
 }
 .header-portafolio{
     display: flex;
-    max-width: 60%;
+    max-width: 61%;
     justify-content: flex-end;
     left: 50%;
-    width: 60%;
+    width: 61%;
     padding: 2rem;
 }
 .contenedor-datos__profecionales > div{

@@ -377,7 +377,7 @@ cursos.forEach(curso => {
         last = ts;
 
         // Fondo semitransparente para crear efecto de persistencia (motion blur)
-        ctx.fillStyle = 'rgba(0,0,3,0.35)';
+        ctx.fillStyle = 'rgba(4, 4, 36, 0.35)';
         ctx.fillRect(0, 0, W, H);
 
         for (const s of stars) {
