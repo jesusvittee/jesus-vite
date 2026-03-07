@@ -20,6 +20,9 @@
 
 <body>
 
+    <!-- Fondo de estrellas -->
+    <canvas id="starsCanvas"></canvas>
+
     <!-- Header flotante -->
     <header class="header-portafolio">
         <nav class="nav-header">
@@ -73,7 +76,7 @@
                                 </figure>
                             </a>
                             <a href="https://www.linkedin.com/in/jesusnicolasvite/">
-                                <figure  class="red-social github">
+                                <figure class="red-social github">
                                     <img src="./portafolio/icon/linkedin.png" alt="LinkedIn de Jesus Vite" class="img-red-social">
                                 </figure>
                             </a>
@@ -84,29 +87,26 @@
             </div>
         </section>
 
-        <!-- NUEVAS SECCIONES -->
-
         <!-- TECNOLOGÍAS -->
         <section class="contenedor-datos-cursos" id="tecnologias">
             <h2>Tecnologías</h2>
-            <p align="center">
-            <img src="https://skillicons.dev/icons?i=html,css,js,react,vite,tailwind,git,github,linux,npm,nextjs,nodejs,ubuntu,vscode,mysql,python&perline=5" />
+            <p class="tecnologias-icons">
+                <img
+                src="https://skillicons.dev/icons?i=html,css,js,react,vite,tailwind,git,github,linux,npm,nextjs,nodejs,ubuntu,vscode,mysql,python&perline=6"
+                alt="Tecnologías que uso">
             </p>
         </section>
 
-            <!-- PROYECTOS -->
+        <!-- PROYECTOS -->
         <section class="contenedor-datos-cursos" id="proyectos">
-
             <h2>Proyectos</h2>
-
             <article class="datos-proyectos" id="lista-proyectos">
                 <!-- JavaScript insertará los proyectos aquí -->
             </article>
-
         </section>
-        
-        <section class="contenedor-datos-cursos" id="educacion">
 
+        <!-- EDUCACIÓN -->
+        <section class="contenedor-datos-cursos" id="educacion">
             <h2>Educación</h2>
 
             <div class="item-educacion">
@@ -130,53 +130,16 @@
                 <h3>Santander Open Academy</h3>
                 <p class="carrera">Programas de formación tecnológica</p>
             </div>
-
-        </section>
-
-
-
-
-
-            
-
         </section>
 
         <!-- CURSOS -->
         <section class="contenedor-datos-cursos" id="CURSOS">
-            <h2>Cursos
+            <h2>Cursos</h2>
             <div class="item-educacion">
-                <h3>Cursos de platzi</h3>
+                <h3>Cursos de Platzi</h3>
             </div>
-             <article class="datos-cursos">
-
-                <figure class="diploma">
-                    <img src="./diplomas/diplomas/react.png" alt="Diploma React">
-                </figure>
-
-                <figure class="diploma">
-                    <img src="./diplomas/diplomas/vite.png" alt="Diploma Vite">
-                </figure>
-
-                <figure class="diploma">
-                    <img src="./diplomas/diplomas/javascript.png" alt="Diploma JavaScript">
-                </figure>
-
-                <figure class="diploma">
-                    <img src="./diplomas/diplomas/htmlcss.png" alt="Diploma HTML y CSS">
-                </figure>
-
-                <figure class="diploma">
-                    <img src="./diplomas/diplomas/tailwind.png" alt="Diploma Tailwind">
-                </figure>
-
-                <figure class="diploma">
-                    <img src="./diplomas/diplomas/github.png" alt="Diploma GitHub">
-                </figure>
-
-                <figure class="diploma">
-                    <img src="./diplomas/diplomas/es6.png" alt="Diploma ES6">
-                </figure>
-
+            <article class="datos-cursos" id="listaCursos">
+                <!-- JS insertará los diplomas aquí -->
             </article>
         </section>
 
@@ -189,20 +152,18 @@
         <!-- CONTACTO -->
         <section class="contenedor-datos-cursos" id="contacto">
             <h2>Contacto</h2>
-                 <!-- contactos -->
-                        <div class="img-icono">
-                            <a href="https://github.com/jesusvittee">
-                                <figure class="red-social github">
-                                    <img src="./portafolio/icon/github.png" alt="GitHub de Jesus Vite" class="img-red-social">
-                                </figure>
-                            </a>
-                            <a href="https://www.linkedin.com/in/jesusnicolasvite/">
-                                <figure  class="red-social github">
-                                    <img src="./portafolio/icon/linkedin.png" alt="LinkedIn de Jesus Vite" class="img-red-social">
-                                </figure>
-                            </a>
-                        </div>
-
+            <div class="img-icono">
+                <a href="https://github.com/jesusvittee">
+                    <figure class="red-social github">
+                        <img src="./portafolio/icon/github.png" alt="GitHub de Jesus Vite" class="img-red-social">
+                    </figure>
+                </a>
+                <a href="https://www.linkedin.com/in/jesusnicolasvite/">
+                    <figure class="red-social github">
+                        <img src="./portafolio/icon/linkedin.png" alt="LinkedIn de Jesus Vite" class="img-red-social">
+                    </figure>
+                </a>
+            </div>
         </section>
 
     </main>

@@ -2,7 +2,6 @@ body{
     position:relative;
 }
 
-
 .text-title{
     font-size:1.8rem;
 }
@@ -55,7 +54,8 @@ body{
 .link-otros > div > figure{
     margin-right:2rem;
 }
--- PROYECTOS
+
+/* PROYECTOS */
 .proyecto-links{
     display: flex;
     justify-content: space-evenly;
@@ -64,9 +64,10 @@ body{
     width: 30%;
 }
 .datos-proyectos{
-        justify-content: space-between;
+    justify-content: space-between;
 }
--- DIPLOMAS
+
+/* DIPLOMAS */
 .datos-cursos{
     display: flex;
     flex-direction: row;

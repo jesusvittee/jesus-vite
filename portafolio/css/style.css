@@ -4,6 +4,7 @@
     --tercer-color:white;
     --color-section:#333;
     --font-color:#bbb9b9;
+    --color-paneles:rgba(225, 225, 225, 0.3);
 }
 .light-theme{
     --negro:#f2f2f2;
@@ -11,6 +12,7 @@
     --tercer-color:#242424;
     --color-section:#b3b3b3;
     --font-color:#555;
+    --color-paneles:rgb(155 154 154 / 40%);
 }
 /* Tema claro: icono se vuelve negro */
 .light-theme .img-red-social {
@@ -75,15 +77,21 @@ main{
 
 .contenedor-datos__profecionales > div {
     display: flex;
-    background-color: rgba(51, 51, 51, 0.5);
-    backdrop-filter: blur(10px);
     border-radius: 1rem;
     padding: 1rem;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     justify-content: center;
     flex-direction: column;
     align-items: center;
     width: 78vw;
+
+    background-color: transparent;
+    backdrop-filter: blur(2px);
+    background-image: linear-gradient(
+        128deg,
+         var(--color-paneles),
+          rgba(0.2,0.2,0.2,0.2)
+    );
+
 }
 
 /* IMAGEN PERFIL */
@@ -97,7 +105,6 @@ main{
 
     position:relative;
 }
-
 .contenedor-figure__img{
     display:flex;
     justify-content:center;
@@ -250,13 +257,13 @@ a{
 
 /* Icono GitHub pequeño */
 .red-social.github {
-    width: 4rem;       /* antes 4rem */
+    width: 4rem;
     height: 4rem;
-    margin-top: 1rem;    /* un poco más compacto */
+    margin-top: 1rem;
 }
 
 .img-red-social {
-    width: 4rem;       /* ajusta para que la imagen quepa dentro del figure */
+    width: 4rem;
     height: 4rem;
     filter: brightness(1);
     transition: filter 0.3s ease;
@@ -281,6 +288,7 @@ a{
     justify-content:center;
     align-items:center;
     width:80vw;
+    
 }
 
 /* TARJETAS */
@@ -317,7 +325,6 @@ a{
     border-radius:.4rem;
 
     background-color:rgba(228,203,134,1);
-    box-shadow:0 0 19px -7px rgba(228,203,134,1);
 }
 
 .link-otros > figure > img{
@@ -461,10 +468,15 @@ h3{
 }
 
 .contenedor-datos-cursos {
-    background-color: rgba(51, 51, 51, 0.4);
-    backdrop-filter: blur(10px);
+    background-color: transparent;
+    backdrop-filter: blur(2px);
+    background-image: linear-gradient(
+        128deg,
+         var(--color-paneles),
+          rgba(0,0,0,0.2)
+    );
+
     border-radius: 1rem;
-    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.25);
     padding: 2rem;
     margin: 2rem 0;
     width: 80vw;
@@ -533,23 +545,24 @@ h3{
     transform: translateX(-50%);
     width: 90%;
     max-width: 35rem;
-    height: 3rem; /* altura muy baja */
-    background-color: rgba(128, 128, 128, 0.6); /* gris semi-transparente */
-    backdrop-filter: blur(8px);
+    height: 3rem;
+    background-color: rgba(128, 128, 128, 0.6);
+    backdrop-filter: blur(1px);
     border-radius: 1rem;
     z-index: 1000;
     display: flex;
-    align-items: center;   /* centra los links verticalmente */
+    align-items: center;
     justify-content: center;
     box-shadow: 0 2px 10px rgba(0,0,0,0.15);
-    padding: 0 1rem;       /* solo un poco de padding horizontal */
+    padding: 0 1rem;
+
 }
 
 /* Lista de links centrados y separados */
 .nav-header ul {
     list-style: none;
     display: flex;
-    justify-content: space-between; /* separación horizontal */
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     margin: 0;
@@ -559,15 +572,15 @@ h3{
 
 .nav-header ul li a {
     text-decoration: none;
-    color: var(--tercer-color); /* blanco por defecto */
+    color: var(--tercer-color);
     font-weight: 600;
-    font-size: 1.3rem;          /* un poco más pequeño */
+    font-size: 1.3rem;
     letter-spacing: 0.15rem;
     transition: color 0.3s ease;
 }
 
 .nav-header ul li a:hover {
-    color: var(--segundo-color); /* dorado al pasar mouse */
+    color: var(--segundo-color);
     cursor: pointer;
 }
 
@@ -578,4 +591,26 @@ h3{
 .img-ubicacion{
     width: 2rem;
     height: 2rem;
+}
+
+/* =============================================
+   FONDO DE ESTRELLAS — canvas
+   ============================================= */
+
+#starsCanvas {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;           /* detrás de todo el contenido */
+    pointer-events: none; /* no intercepta clicks ni scroll */
+}
+
+/* header y main deben quedar por encima del canvas */
+header,
+main {
+    position: relative;
+    z-index: 1;
 }
