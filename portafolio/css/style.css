@@ -1,5 +1,5 @@
 :root{
-    --negro:#764a4a;
+
     --segundo-color:#e4cb86;
     --tercer-color:white;
     --color-section:#333;
@@ -7,7 +7,6 @@
     --color-paneles:rgba(225, 225, 225, 0.3);
 }
 .light-theme{
-    --negro:#f2f2f2;
     --segundo-color:#e4cb86;
     --tercer-color:#242424;
     --color-section:#b3b3b3;
@@ -43,7 +42,6 @@ body{
     justify-content:center;
     width:100%;
     height:auto;
-    background-color:var(--negro);
 }
 main{
     position:absolute;
