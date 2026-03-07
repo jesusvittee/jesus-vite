@@ -1,16 +1,25 @@
 body{
     position:relative;
 }
-
+.main{
+    position: 6.5;
+}
 .text-title{
     font-size:1.8rem;
 }
-
+.theme-toggle{
+    left: 1rem;
+}
 .leer-blog{
     gap:4rem;
 }
 .header-portafolio{
-    max-width: 70rem;
+    display: flex;
+    max-width: 60%;
+    justify-content: flex-end;
+    left: 50%;
+    width: 60%;
+    padding: 2rem;
 }
 .contenedor-datos__profecionales > div{
     width:60vw;
@@ -78,4 +87,18 @@ body{
 
 .diploma{
     width: 30%;
+}
+
+/* =============================================
+   MENÚ — desktop
+   ============================================= */
+
+/* Ocultar hamburguesa en desktop */
+.menu {
+    display: none;
+}
+
+/* Mostrar nav horizontal en desktop */
+.nav-header {
+    display: flex;
 }

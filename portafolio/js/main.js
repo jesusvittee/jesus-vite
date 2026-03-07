@@ -44,37 +44,16 @@ if (themeButton) {
 
 /**
  * Abre o cierra el menú móvil (sidebar).
- * Si el menú desktop estaba abierto, lo cierra primero.
- * Si el main estaba visible, lo oculta (y viceversa).
+ * Simplemente togglea la clase 'inactive' en el sidebar-menu.
  */
 function menuMobile() {
-    const isMainClose    = main.classList.contains('inactive');
-    const isDeskMenClose = sideDesk.classList.contains('inactive');
-
-    if (!isDeskMenClose) {
-        sideDesk.classList.add('inactive');
-    }
-
-    if (!isMainClose) {
-        main.classList.add('inactive');
-    } else {
-        main.classList.remove('inactive');
-    }
-
     if (mobileMenu) mobileMenu.classList.toggle('inactive');
 }
 
 /**
- * Abre o cierra el menú desktop.
- * Si el main estaba oculto, lo vuelve a mostrar.
+ * Abre o cierra el menú desktop (reservado para uso futuro).
  */
 function desktopMenu() {
-    const isMainClose = main.classList.contains('inactive');
-
-    if (isMainClose) {
-        main.classList.remove('inactive');
-    }
-
     if (sideDesk) sideDesk.classList.toggle('inactive');
 }
 
@@ -86,7 +65,8 @@ function desktopMenu() {
  * hace scroll suave hasta la sección correspondiente,
  * descontando la altura del header fijo (80px).
  */
-document.querySelectorAll('.nav-header a').forEach(link => {
+// Scroll suave para links del header y del menú móvil
+document.querySelectorAll('.nav-header a, .sidebar-menu a').forEach(link => {
     link.addEventListener('click', function (e) {
         e.preventDefault();
         const targetId      = this.getAttribute('href').slice(1);
@@ -97,6 +77,8 @@ document.querySelectorAll('.nav-header a').forEach(link => {
                 behavior: 'smooth'
             });
         }
+        // Cierra el menú móvil si estaba abierto
+        if (mobileMenu) mobileMenu.classList.add('inactive');
     });
 });
 
@@ -248,8 +230,8 @@ cursos.forEach(curso => {
         totalStars  : 220,      // más estrellas para cubrir más espacio
         minRadius   : 2,        // radio mínimo de órbita (px)
         maxRadius   : 1.0,      // radio máximo = diagonal completa de la pantalla
-        minSpeed    : 0.00006,  // velocidad angular mínima (rad/ms)
-        maxSpeed    : 0.000325, // velocidad angular máxima (rad/ms)
+        minSpeed    : 0.00002,  // velocidad angular mínima (rad/ms)
+        maxSpeed    : 0.0001, // velocidad angular máxima (rad/ms)
         minSize     : 0.3,      // tamaño mínimo del punto (px)
         maxSize     : 1.6,      // tamaño máximo del punto (px)
         trailLength : 14,       // cantidad de posiciones que forma la estela

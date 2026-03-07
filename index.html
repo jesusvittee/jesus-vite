@@ -25,6 +25,13 @@
 
     <!-- Header flotante -->
     <header class="header-portafolio">
+
+        <!-- Botón hamburguesa — solo visible en móvil -->
+        <button class="menu" id="menu-toggle" aria-label="Abrir menú">
+            <img src="./portafolio/icon/menu-hamburguesa.png" alt="Menú" class="menu-icon">
+        </button>
+
+        <!-- Navegación — oculta en móvil, visible en desktop -->
         <nav class="nav-header">
             <ul>
                 <li><a href="#tecnologias">TECNOLOGÍAS</a></li>
@@ -35,8 +42,22 @@
                 <li><a href="#contacto">CONTACTO</a></li>
             </ul>
         </nav>
+
         <button class="theme-toggle" id="theme-toggle">☀</button>
+
     </header>
+
+    <!-- Menú móvil desplegable -->
+    <div class="sidebar-menu inactive">
+        <ul>
+            <li><a href="#tecnologias">TECNOLOGÍAS</a></li>
+            <li><a href="#proyectos">PROYECTOS</a></li>
+            <li><a href="#educacion">EDUCACIÓN</a></li>
+            <li><a href="#CURSOS">CURSOS</a></li>
+            <li><a href="#experiencia">EXPERIENCIA</a></li>
+            <li><a href="#contacto">CONTACTO</a></li>
+        </ul>
+    </div>
 
     <main class="main">
 

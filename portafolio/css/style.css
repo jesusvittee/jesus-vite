@@ -33,7 +33,9 @@ html{
     font-size:52.6%;
     font-family:'Cinzel', serif;
 }
-
+.header-portafolio{
+    right: 5%;
+}
 body{
     display:flex;
     flex-direction:row;
@@ -512,8 +514,7 @@ h3{
 }
 .theme-toggle{
     position: fixed;
-    top: 2rem;
-    right: 1rem;
+    right: 4rem;
 
     width: 3rem;
     height: 3rem;
@@ -541,9 +542,8 @@ h3{
 .header-portafolio {
     position: fixed;
     top: 1rem;
-    left: 50%;
     transform: translateX(-50%);
-    width: 90%;
+    width: 6%;
     max-width: 35rem;
     height: 3rem;
     background-color: rgba(128, 128, 128, 0.6);
@@ -555,7 +555,6 @@ h3{
     justify-content: center;
     box-shadow: 0 2px 10px rgba(0,0,0,0.15);
     padding: 0 1rem;
-
 }
 
 /* Lista de links centrados y separados */
@@ -604,13 +603,80 @@ h3{
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 0;           /* detrás de todo el contenido */
-    pointer-events: none; /* no intercepta clicks ni scroll */
+    z-index: 0;
+    pointer-events: none;
 }
 
-/* header y main deben quedar por encima del canvas */
 header,
 main {
     position: relative;
     z-index: 1;
+}
+
+/* =============================================
+   MENÚ MÓVIL — mobile first
+   ============================================= */
+
+/* Botón hamburguesa — visible solo en móvil */
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.3rem;
+    z-index: 1001;
+}
+
+.menu-icon {
+    width: 2.4rem;
+    height: 2.4rem;
+    object-fit: contain;
+    border-radius: 0.3rem;
+}
+
+/* Nav principal — oculto en móvil */
+.nav-header {
+    display: none;
+}
+
+/* Menú desplegable móvil */
+.sidebar-menu {
+    position: fixed;
+    top: 5.5rem;          /* justo debajo del header */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 35rem;
+    background-color: rgba(30, 30, 30, 0.95);
+    backdrop-filter: blur(8px);
+    border-radius: 1rem;
+    z-index: 999;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.sidebar-menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-menu ul li a {
+    text-decoration: none;
+    color: var(--tercer-color);
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.15rem;
+    transition: color 0.3s ease;
+    display: block;
+    text-align: center;
+}
+
+.sidebar-menu ul li a:hover {
+    color: var(--segundo-color);
 }
