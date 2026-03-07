@@ -90,8 +90,8 @@ main{
     backdrop-filter: blur(2px);
     background-image: linear-gradient(
         128deg,
-         var(--color-paneles),
-          rgba(0.2,0.2,0.2,0.2)
+        var(--color-paneles),
+        var(--color-paneles)
     );
 
 }
@@ -475,8 +475,7 @@ h3{
     background-image: linear-gradient(
         128deg,
          var(--color-paneles),
-          rgba(0,0,0,0.2)
-    );
+         var(--color-paneles) );
 
     border-radius: 1rem;
     padding: 2rem;
